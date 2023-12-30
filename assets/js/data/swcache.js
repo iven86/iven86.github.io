@@ -41,10 +41,8 @@ const resource = [
 const allowedDomains = [
   
 
-  'localhost:4000',
+  'iven86.github.io',
 
-  
-    '127.0.0.1:4000',
   
 
   'fonts.gstatic.com',
