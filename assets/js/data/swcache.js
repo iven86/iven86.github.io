@@ -25,6 +25,8 @@ const resource = [
   
     '/PortSwigger/',
   
+    '/privacy_policy/',
+  
 
   /* --- Favicons & compressed JS --- */
   
