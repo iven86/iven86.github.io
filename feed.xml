@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2024-06-08T03:21:14+02:00</updated>
+  <updated>2024-06-08T03:42:54+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,62 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB BoardLight Writeup</title>
+    <link href="https://iven86.github.io/posts/BoardLight/" rel="alternate" type="text/html" title="HTB BoardLight Writeup" />
+    <published>2024-06-05T18:00:00+02:00</published>
+  
+    <updated>2024-06-05T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/BoardLight/</id>
+    <content src="https://iven86.github.io/posts/BoardLight/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      10.10.14.36
+INFO
+Machine IP = 10.10.11.11
+OS       = Linux
+Level    = EASY
+Points   = 20
+
+Add the IP of the machine to your /etc/hosts file
+echo "10.10.11.11 board.htb" &amp;gt;&amp;gt; /etc/hosts
+
+
+Scanning
+nmap -sC -sV 10.10.11.11
+
+
+Enumeration
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 06:2d:3b:85:10:59:ff:73:66:27:7f:0e:ae:03:ea:f4 (R...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -209,60 +265,6 @@ Not shown: 997 closed tcp ports (reset)
 PORT    STATE SERVICE  VERSION
 22/tcp  open  ssh      OpenSSH 8.0 (protocol 2.0)
 | ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>RPI Zero W E: You don't have enough free space in /var/cache/apt/archives/. [Solved]</title>
-    <link href="https://iven86.github.io/posts/note-rpi-space-issue/" rel="alternate" type="text/html" title="RPI Zero W E: You don&amp;apos;t have enough free space in /var/cache/apt/archives/. [Solved]" />
-    <published>2021-08-28T00:00:00+02:00</published>
-  
-    <updated>2021-08-28T00:00:00+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/note-rpi-space-issue/</id>
-    <content src="https://iven86.github.io/posts/note-rpi-space-issue/" />
-    <author>
-      <name>Iven Blog</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-RPI Zero W E: You don’t have enough free space in /var/cache/apt/archives/. [Solved]
-
-
-
-This error message showed up on a raspberry pi zero-w with a fresh install of Raspbian or others OS-related.
-
-Error Msg.
-
-You don't have enough free space in /var/cache/apt/archives/.
-
-Solution by the command line
-
-raspi-config --expand-rootfs
-
-
-
- Hi there 👋 Support me!
-
-  Life is an echo—what you send out...
     </summary>
   
 
