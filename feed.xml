@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://iven86.github.io/</id>
+  <id>http://localhost:4000/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-03-20T02:31:05+01:00</updated>
+  <updated>2025-03-24T02:44:28+01:00</updated>
   <author>
     <name>Iven Blog</name>
-    <uri>https://iven86.github.io/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://iven86.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://iven86.github.io/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Iven Blog </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,42 @@
 
   
   <entry>
+    <title>HTB Alert Writeup (Walkthrough)</title>
+    <link href="http://localhost:4000/posts/htb-challenge-Alert/" rel="alternate" type="text/html" title="HTB Alert Writeup (Walkthrough)" />
+    <published>2025-03-22T17:00:00+01:00</published>
+  
+    <updated>2025-03-22T17:00:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/htb-challenge-Alert/</id>
+    <content type="text/html" src="http://localhost:4000/posts/htb-challenge-Alert/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  <summary>INFO Machine IP = 10.10.11.44  OS = Linux Level = EASY Points = 20  Summary In this challenge, multiple web vulnerabilities were chained to gain a foothold and ultimately escalate privileges. This writeup explains the process step by step, detailing not only the exploits but also the key tools, protocols, and command-line usage that helped drive the attack.  Introduction The “Alert” machine isn...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>HTB BoardLight Writeup</title>
-    <link href="https://iven86.github.io/posts/BoardLight/" rel="alternate" type="text/html" title="HTB BoardLight Writeup" />
+    <link href="http://localhost:4000/posts/BoardLight/" rel="alternate" type="text/html" title="HTB BoardLight Writeup" />
     <published>2024-06-05T18:00:00+02:00</published>
   
     <updated>2024-06-08T03:49:56+02:00</updated>
   
-    <id>https://iven86.github.io/posts/BoardLight/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/BoardLight/" />
+    <id>http://localhost:4000/posts/BoardLight/</id>
+    <content type="text/html" src="http://localhost:4000/posts/BoardLight/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -49,13 +77,13 @@
   
   <entry>
     <title>SQL injection with filter bypass via XML encoding</title>
-    <link href="https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" rel="alternate" type="text/html" title="SQL injection with filter bypass via XML encoding" />
+    <link href="http://localhost:4000/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" rel="alternate" type="text/html" title="SQL injection with filter bypass via XML encoding" />
     <published>2024-01-04T00:00:00+01:00</published>
   
     <updated>2024-01-04T00:00:00+01:00</updated>
   
-    <id>https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" />
+    <id>http://localhost:4000/posts/SQL-injection-with-filter-bypass-via-XML-encoding/</id>
+    <content type="text/html" src="http://localhost:4000/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -81,13 +109,13 @@
   
   <entry>
     <title>Visible error-based SQL injection</title>
-    <link href="https://iven86.github.io/posts/visible-error-based-sql-injection/" rel="alternate" type="text/html" title="Visible error-based SQL injection" />
+    <link href="http://localhost:4000/posts/visible-error-based-sql-injection/" rel="alternate" type="text/html" title="Visible error-based SQL injection" />
     <published>2023-12-30T00:00:00+01:00</published>
   
     <updated>2023-12-30T00:00:00+01:00</updated>
   
-    <id>https://iven86.github.io/posts/visible-error-based-sql-injection/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/visible-error-based-sql-injection/" />
+    <id>http://localhost:4000/posts/visible-error-based-sql-injection/</id>
+    <content type="text/html" src="http://localhost:4000/posts/visible-error-based-sql-injection/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -111,13 +139,13 @@
   
   <entry>
     <title>HTB Timing Writeup</title>
-    <link href="https://iven86.github.io/posts/Timing/" rel="alternate" type="text/html" title="HTB Timing Writeup" />
+    <link href="http://localhost:4000/posts/Timing/" rel="alternate" type="text/html" title="HTB Timing Writeup" />
     <published>2022-03-18T17:00:00+01:00</published>
   
     <updated>2022-03-18T17:00:00+01:00</updated>
   
-    <id>https://iven86.github.io/posts/Timing/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Timing/" />
+    <id>http://localhost:4000/posts/Timing/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Timing/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -133,34 +161,6 @@
   
 
   <summary>INFO Machine IP = 10.10.11.135 OS       = Linux Level    = MEDIUM Points   = 30  Write the IP of the machine to your /etc/hosts file echo &amp;quot;x.x.x.x xxx.htb&amp;quot; &amp;amp;gt;&amp;amp;gt; /etc/hosts   SCANNING - Nmap: ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA nmap/timing/result 10.10.11.135 Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-17 14:43 EDT Nmap scan report for 10.10.11.135 Host is up (0.30s l...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Paper Writeup</title>
-    <link href="https://iven86.github.io/posts/Paper/" rel="alternate" type="text/html" title="HTB Paper Writeup" />
-    <published>2022-03-11T17:00:00+01:00</published>
-  
-    <updated>2022-03-11T17:00:00+01:00</updated>
-  
-    <id>https://iven86.github.io/posts/Paper/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Paper/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Easy" />
-    
-  
-
-  <summary>INFO Machine IP = 10.10.11.143 OS       = Linux Level    = Easy Points   = 20  SCANNING - Nmap: # Nmap 7.92 scan initiated Sun Mar 13 11:10:47 2022 as: nmap -sV -sC -oA /home/kali/Desktop/nmap/Paper 10.10.11.143 Nmap scan report for 10.10.11.143 Host is up (0.28s latency). Not shown: 997 closed tcp ports (reset) PORT    STATE SERVICE  VERSION 22/tcp  open  ssh      OpenSSH 8.0 (protocol 2.0) | ...</summary>
 
   </entry>
 

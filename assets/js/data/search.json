@@ -1,5 +1,13 @@
 [
   {
+    "title": "HTB Alert Writeup (Walkthrough)",
+    "url": "/posts/htb-challenge-Alert/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-03-22 17:00:00 +0100",
+    "content": "INFO Machine IP = 10.10.11.44  OS = Linux Level = EASY Points = 20  Summary In this challenge, multiple web vulnerabilities were chained to gain a foothold and ultimately escalate privileges. This ..."
+  },
+  {
     "title": "HTB BoardLight Writeup",
     "url": "/posts/BoardLight/",
     "categories": "HackTheBox, Writeup, Easy",
