@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-03-24T02:44:28+01:00</updated>
+  <updated>2025-03-24T03:58:47+01:00</updated>
   <author>
     <name>Iven Blog</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://iven86.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://iven86.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://iven86.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Iven Blog </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,42 @@
 
   
   <entry>
+    <title>Test Post...</title>
+    <link href="https://iven86.github.io/posts/htb-challenge-Alert/" rel="alternate" type="text/html" title="Test Post..." />
+    <published>2025-03-22T17:00:00+01:00</published>
+  
+    <updated>2025-03-24T03:12:46+01:00</updated>
+  
+    <id>https://iven86.github.io/posts/htb-challenge-Alert/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/htb-challenge-Alert/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  <summary>Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>HTB Alert Writeup (Walkthrough)</title>
-    <link href="http://localhost:4000/posts/htb-challenge-Alert/" rel="alternate" type="text/html" title="HTB Alert Writeup (Walkthrough)" />
+    <link href="https://iven86.github.io/posts/htb-challenge-Alert/" rel="alternate" type="text/html" title="HTB Alert Writeup (Walkthrough)" />
     <published>2025-03-22T17:00:00+01:00</published>
   
     <updated>2025-03-22T17:00:00+01:00</updated>
   
-    <id>http://localhost:4000/posts/htb-challenge-Alert/</id>
-    <content type="text/html" src="http://localhost:4000/posts/htb-challenge-Alert/" />
+    <id>https://iven86.github.io/posts/htb-challenge-Alert/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/htb-challenge-Alert/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -49,13 +77,13 @@
   
   <entry>
     <title>HTB BoardLight Writeup</title>
-    <link href="http://localhost:4000/posts/BoardLight/" rel="alternate" type="text/html" title="HTB BoardLight Writeup" />
+    <link href="https://iven86.github.io/posts/BoardLight/" rel="alternate" type="text/html" title="HTB BoardLight Writeup" />
     <published>2024-06-05T18:00:00+02:00</published>
   
     <updated>2024-06-08T03:49:56+02:00</updated>
   
-    <id>http://localhost:4000/posts/BoardLight/</id>
-    <content type="text/html" src="http://localhost:4000/posts/BoardLight/" />
+    <id>https://iven86.github.io/posts/BoardLight/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/BoardLight/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -77,13 +105,13 @@
   
   <entry>
     <title>SQL injection with filter bypass via XML encoding</title>
-    <link href="http://localhost:4000/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" rel="alternate" type="text/html" title="SQL injection with filter bypass via XML encoding" />
+    <link href="https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" rel="alternate" type="text/html" title="SQL injection with filter bypass via XML encoding" />
     <published>2024-01-04T00:00:00+01:00</published>
   
     <updated>2024-01-04T00:00:00+01:00</updated>
   
-    <id>http://localhost:4000/posts/SQL-injection-with-filter-bypass-via-XML-encoding/</id>
-    <content type="text/html" src="http://localhost:4000/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" />
+    <id>https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -109,13 +137,13 @@
   
   <entry>
     <title>Visible error-based SQL injection</title>
-    <link href="http://localhost:4000/posts/visible-error-based-sql-injection/" rel="alternate" type="text/html" title="Visible error-based SQL injection" />
+    <link href="https://iven86.github.io/posts/visible-error-based-sql-injection/" rel="alternate" type="text/html" title="Visible error-based SQL injection" />
     <published>2023-12-30T00:00:00+01:00</published>
   
     <updated>2023-12-30T00:00:00+01:00</updated>
   
-    <id>http://localhost:4000/posts/visible-error-based-sql-injection/</id>
-    <content type="text/html" src="http://localhost:4000/posts/visible-error-based-sql-injection/" />
+    <id>https://iven86.github.io/posts/visible-error-based-sql-injection/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/visible-error-based-sql-injection/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -133,34 +161,6 @@
   
 
   <summary>🔬 LAB:  This lab contains a SQL injection vulnerability. The application uses a tracking cookie for analytics, and performs a SQL query containing the value of the submitted cookie. The results of the SQL query are not returned.  The database contains a different table called users, with columns called username and password. To solve the lab, find a way to leak the password for the administrato...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Timing Writeup</title>
-    <link href="http://localhost:4000/posts/Timing/" rel="alternate" type="text/html" title="HTB Timing Writeup" />
-    <published>2022-03-18T17:00:00+01:00</published>
-  
-    <updated>2022-03-18T17:00:00+01:00</updated>
-  
-    <id>http://localhost:4000/posts/Timing/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Timing/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Medium" />
-    
-  
-
-  <summary>INFO Machine IP = 10.10.11.135 OS       = Linux Level    = MEDIUM Points   = 30  Write the IP of the machine to your /etc/hosts file echo &amp;quot;x.x.x.x xxx.htb&amp;quot; &amp;amp;gt;&amp;amp;gt; /etc/hosts   SCANNING - Nmap: ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA nmap/timing/result 10.10.11.135 Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-17 14:43 EDT Nmap scan report for 10.10.11.135 Host is up (0.30s l...</summary>
 
   </entry>
 
