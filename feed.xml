@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-03-24T03:58:47+01:00</updated>
+  <updated>2025-03-24T04:02:25+01:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,34 +17,6 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title>Test Post...</title>
-    <link href="https://iven86.github.io/posts/htb-challenge-Alert/" rel="alternate" type="text/html" title="Test Post..." />
-    <published>2025-03-22T17:00:00+01:00</published>
-  
-    <updated>2025-03-24T03:12:46+01:00</updated>
-  
-    <id>https://iven86.github.io/posts/htb-challenge-Alert/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/htb-challenge-Alert/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Easy" />
-    
-  
-
-  <summary>Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
-
-  </entry>
 
   
   <entry>
@@ -161,6 +133,34 @@
   
 
   <summary>🔬 LAB:  This lab contains a SQL injection vulnerability. The application uses a tracking cookie for analytics, and performs a SQL query containing the value of the submitted cookie. The results of the SQL query are not returned.  The database contains a different table called users, with columns called username and password. To solve the lab, find a way to leak the password for the administrato...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>HTB Timing Writeup</title>
+    <link href="https://iven86.github.io/posts/Timing/" rel="alternate" type="text/html" title="HTB Timing Writeup" />
+    <published>2022-03-18T17:00:00+01:00</published>
+  
+    <updated>2022-03-18T17:00:00+01:00</updated>
+  
+    <id>https://iven86.github.io/posts/Timing/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Timing/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>INFO Machine IP = 10.10.11.135 OS       = Linux Level    = MEDIUM Points   = 30  Write the IP of the machine to your /etc/hosts file echo &amp;quot;x.x.x.x xxx.htb&amp;quot; &amp;amp;gt;&amp;amp;gt; /etc/hosts   SCANNING - Nmap: ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA nmap/timing/result 10.10.11.135 Starting Nmap 7.92 ( https://nmap.org ) at 2022-03-17 14:43 EDT Nmap scan report for 10.10.11.135 Host is up (0.30s l...</summary>
 
   </entry>
 
