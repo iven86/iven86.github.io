@@ -1,5 +1,13 @@
 [
   {
+    "title": "HTB Strutted Writeup (Walkthrough)",
+    "url": "/posts/htb-challenge-Strutted/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium",
+    "date": "2025-03-27 17:00:00 +0100",
+    "content": "Introduction  Strutted, a medium-difficulty Linux machine on HackTheBox, offers a practical exploration of real-world vulnerabilities and misconfigurations. Retired as a free instant challenge, thi..."
+  },
+  {
     "title": "HTB Alert Writeup (Walkthrough)",
     "url": "/posts/htb-challenge-Alert/",
     "categories": "HackTheBox, Writeup, Easy",
