@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-03-30T14:29:35+02:00</updated>
+  <updated>2025-03-30T14:36:05+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>HTB Strutted Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/htb-challenge-Strutted/" rel="alternate" type="text/html" title="HTB Strutted Writeup (Walkthrough)" />
+    <link href="https://iven86.github.io/posts/Strutted/" rel="alternate" type="text/html" title="HTB Strutted Writeup (Walkthrough)" />
     <published>2025-03-27T17:00:00+01:00</published>
   
-    <updated>2025-03-27T17:00:00+01:00</updated>
+    <updated>2025-03-30T14:35:36+02:00</updated>
   
-    <id>https://iven86.github.io/posts/htb-challenge-Strutted/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/htb-challenge-Strutted/" />
+    <id>https://iven86.github.io/posts/Strutted/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Strutted/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -49,13 +49,13 @@
   
   <entry>
     <title>HTB Alert Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/htb-challenge-Alert/" rel="alternate" type="text/html" title="HTB Alert Writeup (Walkthrough)" />
+    <link href="https://iven86.github.io/posts/Alert/" rel="alternate" type="text/html" title="HTB Alert Writeup (Walkthrough)" />
     <published>2025-03-22T17:00:00+01:00</published>
   
-    <updated>2025-03-22T17:00:00+01:00</updated>
+    <updated>2025-03-30T14:35:36+02:00</updated>
   
-    <id>https://iven86.github.io/posts/htb-challenge-Alert/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/htb-challenge-Alert/" />
+    <id>https://iven86.github.io/posts/Alert/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Alert/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>

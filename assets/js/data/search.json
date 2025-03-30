@@ -1,7 +1,7 @@
 [
   {
     "title": "HTB Strutted Writeup (Walkthrough)",
-    "url": "/posts/htb-challenge-Strutted/",
+    "url": "/posts/Strutted/",
     "categories": "HackTheBox, Writeup, Medium",
     "tags": "Writeup, HTB-Medium",
     "date": "2025-03-27 17:00:00 +0100",
@@ -9,7 +9,7 @@
   },
   {
     "title": "HTB Alert Writeup (Walkthrough)",
-    "url": "/posts/htb-challenge-Alert/",
+    "url": "/posts/Alert/",
     "categories": "HackTheBox, Writeup, Easy",
     "tags": "Writeup, HTB-Easy",
     "date": "2025-03-22 17:00:00 +0100",
