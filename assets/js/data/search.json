@@ -8,6 +8,14 @@
     "content": "Introduction  Strutted, a medium-difficulty Linux machine on HackTheBox, offers a practical exploration of real-world vulnerabilities and misconfigurations. Retired as a free instant challenge, thi..."
   },
   {
+    "title": "How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux",
+    "url": "/posts/Cursor-Editor-with-Sandbox/",
+    "categories": "Troubleshooting, Linux, AI",
+    "tags": "Troubleshooting, Linux, AI",
+    "date": "2025-03-27 17:00:00 +0100",
+    "content": "Introduction  If you’re trying to run the Cursor AI Code Editor on Linux while keeping the sandbox enabled for security, you might run into errors like:  The setuid sandbox is not running as root. ..."
+  },
+  {
     "title": "HTB Alert Writeup (Walkthrough)",
     "url": "/posts/Alert/",
     "categories": "HackTheBox, Writeup, Easy",

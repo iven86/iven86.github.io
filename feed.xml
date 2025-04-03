@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-03-30T14:36:05+02:00</updated>
+  <updated>2025-04-03T10:26:49+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -24,7 +24,7 @@
     <link href="https://iven86.github.io/posts/Strutted/" rel="alternate" type="text/html" title="HTB Strutted Writeup (Walkthrough)" />
     <published>2025-03-27T17:00:00+01:00</published>
   
-    <updated>2025-03-30T14:35:36+02:00</updated>
+    <updated>2025-04-03T10:26:13+02:00</updated>
   
     <id>https://iven86.github.io/posts/Strutted/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Strutted/" />
@@ -48,11 +48,39 @@
 
   
   <entry>
+    <title>How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux</title>
+    <link href="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" rel="alternate" type="text/html" title="How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux" />
+    <published>2025-03-27T17:00:00+01:00</published>
+  
+    <updated>2025-03-27T17:00:00+01:00</updated>
+  
+    <id>https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="Troubleshooting" />
+    
+    <category term="Linux" />
+    
+    <category term="AI" />
+    
+  
+
+  <summary>Introduction  If you’re trying to run the Cursor AI Code Editor on Linux while keeping the sandbox enabled for security, you might run into errors like:  The setuid sandbox is not running as root. Common causes:   * An unprivileged process using ptrace on it, like a debugger.   * A parent process set prctl(PR_SET_NO_NEW_PRIVS, ...) Failed to move to new namespace: PID namespaces supported, Netw...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>HTB Alert Writeup (Walkthrough)</title>
     <link href="https://iven86.github.io/posts/Alert/" rel="alternate" type="text/html" title="HTB Alert Writeup (Walkthrough)" />
     <published>2025-03-22T17:00:00+01:00</published>
   
-    <updated>2025-03-30T14:35:36+02:00</updated>
+    <updated>2025-04-03T10:26:13+02:00</updated>
   
     <id>https://iven86.github.io/posts/Alert/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Alert/" />
@@ -80,7 +108,7 @@
     <link href="https://iven86.github.io/posts/BoardLight/" rel="alternate" type="text/html" title="HTB BoardLight Writeup" />
     <published>2024-06-05T18:00:00+02:00</published>
   
-    <updated>2024-06-08T03:49:56+02:00</updated>
+    <updated>2025-04-03T10:26:13+02:00</updated>
   
     <id>https://iven86.github.io/posts/BoardLight/</id>
     <content type="text/html" src="https://iven86.github.io/posts/BoardLight/" />
@@ -131,36 +159,6 @@
   
 
   <summary>🔬 LAB:  This lab contains a SQL injection vulnerability in its stock check feature. The results from the query are returned in the application’s response, so you can use a UNION attack to retrieve data from other tables.  The database contains a users table, which contains the usernames and passwords of registered users. To solve the lab, perform a SQL injection attack to retrieve the admin use...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Visible error-based SQL injection</title>
-    <link href="https://iven86.github.io/posts/visible-error-based-sql-injection/" rel="alternate" type="text/html" title="Visible error-based SQL injection" />
-    <published>2023-12-30T00:00:00+01:00</published>
-  
-    <updated>2023-12-30T00:00:00+01:00</updated>
-  
-    <id>https://iven86.github.io/posts/visible-error-based-sql-injection/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/visible-error-based-sql-injection/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="PortSwigger" />
-    
-    <category term="SQL-Injection" />
-    
-    <category term="Blind" />
-    
-    <category term="Writeup" />
-    
-  
-
-  <summary>🔬 LAB:  This lab contains a SQL injection vulnerability. The application uses a tracking cookie for analytics, and performs a SQL query containing the value of the submitted cookie. The results of the SQL query are not returned.  The database contains a different table called users, with columns called username and password. To solve the lab, find a way to leak the password for the administrato...</summary>
 
   </entry>
 
