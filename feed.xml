@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-04-03T10:26:49+02:00</updated>
+  <updated>2025-04-03T10:29:22+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux</title>
+    <link href="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" rel="alternate" type="text/html" title="How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux" />
+    <published>2025-04-02T18:00:00+02:00</published>
+  
+    <updated>2025-04-03T10:29:03+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="Troubleshooting" />
+    
+    <category term="Linux" />
+    
+    <category term="AI" />
+    
+  
+
+  <summary>Introduction  If you’re trying to run the Cursor AI Code Editor on Linux while keeping the sandbox enabled for security, you might run into errors like:  The setuid sandbox is not running as root. Common causes:   * An unprivileged process using ptrace on it, like a debugger.   * A parent process set prctl(PR_SET_NO_NEW_PRIVS, ...) Failed to move to new namespace: PID namespaces supported, Netw...</summary>
+
+  </entry>
 
   
   <entry>
@@ -43,34 +71,6 @@
   
 
   <summary>Introduction  Strutted, a medium-difficulty Linux machine on HackTheBox, offers a practical exploration of real-world vulnerabilities and misconfigurations. Retired as a free instant challenge, this box focuses on exploiting CVE-2024-53677, a critical remote code execution flaw in Apache Struts 2, to gain an initial foothold. The machine simulates a compromised image-hosting platform hosted via...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux</title>
-    <link href="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" rel="alternate" type="text/html" title="How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux" />
-    <published>2025-03-27T17:00:00+01:00</published>
-  
-    <updated>2025-03-27T17:00:00+01:00</updated>
-  
-    <id>https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="Troubleshooting" />
-    
-    <category term="Linux" />
-    
-    <category term="AI" />
-    
-  
-
-  <summary>Introduction  If you’re trying to run the Cursor AI Code Editor on Linux while keeping the sandbox enabled for security, you might run into errors like:  The setuid sandbox is not running as root. Common causes:   * An unprivileged process using ptrace on it, like a debugger.   * A parent process set prctl(PR_SET_NO_NEW_PRIVS, ...) Failed to move to new namespace: PID namespaces supported, Netw...</summary>
 
   </entry>
 
