@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-04-22T22:20:37+02:00</updated>
+  <updated>2025-04-24T20:41:08+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB Nocturnal Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Nocturnal_pwned/" rel="alternate" type="text/html" title="HTB Nocturnal Writeup (Walkthrough)" />
+    <published>2025-04-21T18:00:00+02:00</published>
+  
+    <updated>2025-04-21T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Nocturnal_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Nocturnal_pwned/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
+
+  </entry>
 
   
   <entry>
@@ -76,14 +104,14 @@
 
   
   <entry>
-    <title>HTB Alert Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Alert/" rel="alternate" type="text/html" title="HTB Alert Writeup (Walkthrough)" />
-    <published>2025-03-22T17:00:00+01:00</published>
+    <title>HTB Code Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Code_pwned/" rel="alternate" type="text/html" title="HTB Code Writeup (Walkthrough)" />
+    <published>2025-03-27T17:00:00+01:00</published>
   
-    <updated>2025-04-03T10:26:13+02:00</updated>
+    <updated>2025-03-27T17:00:00+01:00</updated>
   
-    <id>https://iven86.github.io/posts/Alert/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Alert/" />
+    <id>https://iven86.github.io/posts/Code_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Code_pwned/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -98,20 +126,20 @@
     
   
 
-  <summary>INFO Machine IP = 10.10.11.44  OS = Linux Level = EASY Points = 20  Summary In this challenge, multiple web vulnerabilities were chained to gain a foothold and ultimately escalate privileges. This writeup explains the process step by step, detailing not only the exploits but also the key tools, protocols, and command-line usage that helped drive the attack.  Introduction The “Alert” machine isn...</summary>
+  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
 
   </entry>
 
   
   <entry>
-    <title>HTB BoardLight Writeup</title>
-    <link href="https://iven86.github.io/posts/BoardLight/" rel="alternate" type="text/html" title="HTB BoardLight Writeup" />
-    <published>2024-06-05T18:00:00+02:00</published>
+    <title>HTB Titanic Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Titanic_pwned/" rel="alternate" type="text/html" title="HTB Titanic Writeup (Walkthrough)" />
+    <published>2025-03-26T17:00:00+01:00</published>
   
-    <updated>2025-04-03T10:26:13+02:00</updated>
+    <updated>2025-03-26T17:00:00+01:00</updated>
   
-    <id>https://iven86.github.io/posts/BoardLight/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/BoardLight/" />
+    <id>https://iven86.github.io/posts/Titanic_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Titanic_pwned/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -126,39 +154,7 @@
     
   
 
-  <summary>10.10.14.36 INFO Machine IP = 10.10.11.11 OS       = Linux Level    = EASY Points   = 20  Add the IP of the machine to your /etc/hosts file echo &amp;quot;10.10.11.11 board.htb&amp;quot; &amp;amp;gt;&amp;amp;gt; /etc/hosts   Scanning nmap -sC -sV 10.10.11.11   Enumeration 22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0) | ssh-hostkey:  |   3072 06:2d:3b:85:10:59:ff:73:66:27:7f:0e:ae:03:ea:f4 (R...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>SQL injection with filter bypass via XML encoding</title>
-    <link href="https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" rel="alternate" type="text/html" title="SQL injection with filter bypass via XML encoding" />
-    <published>2024-01-04T00:00:00+01:00</published>
-  
-    <updated>2024-01-04T00:00:00+01:00</updated>
-  
-    <id>https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/SQL-injection-with-filter-bypass-via-XML-encoding/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="PortSwigger" />
-    
-    <category term="SQL-Injection" />
-    
-    <category term="XML" />
-    
-    <category term="Writeup" />
-    
-    <category term="Filter Bypass" />
-    
-  
-
-  <summary>🔬 LAB:  This lab contains a SQL injection vulnerability in its stock check feature. The results from the query are returned in the application’s response, so you can use a UNION attack to retrieve data from other tables.  The database contains a users table, which contains the usernames and passwords of registered users. To solve the lab, perform a SQL injection attack to retrieve the admin use...</summary>
+  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
 
   </entry>
 

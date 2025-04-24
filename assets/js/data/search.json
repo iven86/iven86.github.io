@@ -1,5 +1,13 @@
 [
   {
+    "title": "HTB Nocturnal Writeup (Walkthrough)",
+    "url": "/posts/Nocturnal_pwned/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-04-21 18:00:00 +0200",
+    "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
+  },
+  {
     "title": "How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux",
     "url": "/posts/Cursor-Editor-with-Sandbox/",
     "categories": "Troubleshooting, Linux, AI",
@@ -14,6 +22,22 @@
     "tags": "Writeup, HTB-Medium",
     "date": "2025-03-27 17:00:00 +0100",
     "content": "Introduction  Strutted, a medium-difficulty Linux machine on HackTheBox, offers a practical exploration of real-world vulnerabilities and misconfigurations. Retired as a free instant challenge, thi..."
+  },
+  {
+    "title": "HTB Code Writeup (Walkthrough)",
+    "url": "/posts/Code_pwned/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-03-27 17:00:00 +0100",
+    "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
+  },
+  {
+    "title": "HTB Titanic Writeup (Walkthrough)",
+    "url": "/posts/Titanic_pwned/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-03-26 17:00:00 +0100",
+    "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
   },
   {
     "title": "HTB Alert Writeup (Walkthrough)",
