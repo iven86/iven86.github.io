@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-04-24T20:41:08+02:00</updated>
+  <updated>2025-04-26T15:40:51+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB Heal Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Heal_pwned/" rel="alternate" type="text/html" title="HTB Heal Writeup (Walkthrough)" />
+    <published>2025-04-25T18:00:00+02:00</published>
+  
+    <updated>2025-04-25T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Heal_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Heal_pwned/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46 Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-25 13:58 EDT Nmap scan report for 10.10.11.46 Host is up (0.21s latency). Not shown: 998 closed tcp ports (reset) PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3u...</summary>
+
+  </entry>
 
   
   <entry>
@@ -112,34 +140,6 @@
   
     <id>https://iven86.github.io/posts/Code_pwned/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Code_pwned/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Easy" />
-    
-  
-
-  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Titanic Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Titanic_pwned/" rel="alternate" type="text/html" title="HTB Titanic Writeup (Walkthrough)" />
-    <published>2025-03-26T17:00:00+01:00</published>
-  
-    <updated>2025-03-26T17:00:00+01:00</updated>
-  
-    <id>https://iven86.github.io/posts/Titanic_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Titanic_pwned/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
