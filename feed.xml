@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-04-26T19:22:49+02:00</updated>
+  <updated>2025-04-30T21:35:58+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -43,6 +43,34 @@
   
 
   <summary>Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46 Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-25 13:58 EDT Nmap scan report for 10.10.11.46 Host is up (0.21s latency). Not shown: 998 closed tcp ports (reset) PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3u...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>HTB Cypher Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Cypher_pwned/" rel="alternate" type="text/html" title="HTB Cypher Writeup (Walkthrough)" />
+    <published>2025-04-21T18:00:00+02:00</published>
+  
+    <updated>2025-04-21T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Cypher_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Cypher_pwned/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap 7.95 scan initiated Wed Apr 30 10:16:45 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA cypher 10.10.11.57 Nmap scan report for cypher.htb (10.10.11.57) Host is up (0.10s latency). Not shown: 99...</summary>
 
   </entry>
 
@@ -127,34 +155,6 @@
   
 
   <summary>Introduction  Strutted, a medium-difficulty Linux machine on HackTheBox, offers a practical exploration of real-world vulnerabilities and misconfigurations. Retired as a free instant challenge, this box focuses on exploiting CVE-2024-53677, a critical remote code execution flaw in Apache Struts 2, to gain an initial foothold. The machine simulates a compromised image-hosting platform hosted via...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Code Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Code_pwned/" rel="alternate" type="text/html" title="HTB Code Writeup (Walkthrough)" />
-    <published>2025-03-27T17:00:00+01:00</published>
-  
-    <updated>2025-03-27T17:00:00+01:00</updated>
-  
-    <id>https://iven86.github.io/posts/Code_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Code_pwned/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Easy" />
-    
-  
-
-  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
 
   </entry>
 
