@@ -1,19 +1,19 @@
 [
   {
+    "title": "HTB Cypher Writeup (Walkthrough)",
+    "url": "/posts/Cypher_pwned/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium",
+    "date": "2025-04-29 18:00:00 +0200",
+    "content": "Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap..."
+  },
+  {
     "title": "HTB Heal Writeup (Walkthrough)",
     "url": "/posts/Heal_pwned/",
     "categories": "HackTheBox, Writeup, Medium",
     "tags": "Writeup, HTB-Medium",
     "date": "2025-04-25 18:00:00 +0200",
     "content": "Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46 Starting Nmap 7.95 ( https://nmap.org ..."
-  },
-  {
-    "title": "HTB Cypher Writeup (Walkthrough)",
-    "url": "/posts/Cypher_pwned/",
-    "categories": "HackTheBox, Writeup, Medium",
-    "tags": "Writeup, HTB-Medium",
-    "date": "2025-04-21 18:00:00 +0200",
-    "content": "Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap..."
   },
   {
     "title": "HTB Nocturnal Writeup (Walkthrough)",

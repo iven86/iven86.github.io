@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-04-30T21:35:58+02:00</updated>
+  <updated>2025-04-30T21:38:19+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB Cypher Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Cypher_pwned/" rel="alternate" type="text/html" title="HTB Cypher Writeup (Walkthrough)" />
+    <published>2025-04-29T18:00:00+02:00</published>
+  
+    <updated>2025-04-29T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Cypher_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Cypher_pwned/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap 7.95 scan initiated Wed Apr 30 10:16:45 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA cypher 10.10.11.57 Nmap scan report for cypher.htb (10.10.11.57) Host is up (0.10s latency). Not shown: 99...</summary>
+
+  </entry>
 
   
   <entry>
@@ -43,34 +71,6 @@
   
 
   <summary>Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46 Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-25 13:58 EDT Nmap scan report for 10.10.11.46 Host is up (0.21s latency). Not shown: 998 closed tcp ports (reset) PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3u...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Cypher Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Cypher_pwned/" rel="alternate" type="text/html" title="HTB Cypher Writeup (Walkthrough)" />
-    <published>2025-04-21T18:00:00+02:00</published>
-  
-    <updated>2025-04-21T18:00:00+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Cypher_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Cypher_pwned/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Medium" />
-    
-  
-
-  <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap 7.95 scan initiated Wed Apr 30 10:16:45 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA cypher 10.10.11.57 Nmap scan report for cypher.htb (10.10.11.57) Host is up (0.10s latency). Not shown: 99...</summary>
 
   </entry>
 
