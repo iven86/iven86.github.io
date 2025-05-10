@@ -1,5 +1,21 @@
 [
   {
+    "title": "HTB Nineveh Writeup (Walkthrough)",
+    "url": "/posts/Nineveh/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium, LFI, Port-Knocking, PHP, Web, chkrootkit",
+    "date": "2025-05-09 18:00:00 +0200",
+    "content": "Introduction  Nineveh is a medium-difficulty Linux machine on HackTheBox that features web vulnerabilities, local file inclusion, and port knocking. This machine requires careful enumeration and cr..."
+  },
+  {
+    "title": "HTB Lame Writeup (Walkthrough)",
+    "url": "/posts/Lame/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy, Samba, vsftpd, Metasploit, distcc",
+    "date": "2025-05-09 18:00:00 +0200",
+    "content": "Introduction  Lame was the first box released on HackTheBox, and it’s considered an excellent starting point for beginners. This machine demonstrates classic vulnerabilities in outdated services an..."
+  },
+  {
     "title": "HTB Cypher Writeup (Walkthrough)",
     "url": "/posts/Cypher_pwned/",
     "categories": "HackTheBox, Writeup, Medium",

@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-04-30T21:38:19+02:00</updated>
+  <updated>2025-05-10T06:30:33+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,62 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB Nineveh Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Nineveh/" rel="alternate" type="text/html" title="HTB Nineveh Writeup (Walkthrough)" />
+    <published>2025-05-09T18:00:00+02:00</published>
+  
+    <updated>2025-05-09T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Nineveh/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Nineveh/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>Introduction  Nineveh is a medium-difficulty Linux machine on HackTheBox that features web vulnerabilities, local file inclusion, and port knocking. This machine requires careful enumeration and creative thinking. In this write-up, I’ll guide you through my approach to compromising this box.    Initial Scanning &amp;amp;amp; Enumeration  First, let’s run an nmap scan to identify open ports and services...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>HTB Lame Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Lame/" rel="alternate" type="text/html" title="HTB Lame Writeup (Walkthrough)" />
+    <published>2025-05-09T18:00:00+02:00</published>
+  
+    <updated>2025-05-09T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Lame/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Lame/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  <summary>Introduction  Lame was the first box released on HackTheBox, and it’s considered an excellent starting point for beginners. This machine demonstrates classic vulnerabilities in outdated services and provides a straightforward path to root access. In this writeup, I’ll walk through the enumeration process and present multiple methods to exploit this Linux machine.  Machine Overview     Name: Lam...</summary>
+
+  </entry>
 
   
   <entry>
@@ -99,62 +155,6 @@
   
 
   <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux</title>
-    <link href="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" rel="alternate" type="text/html" title="How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux" />
-    <published>2025-04-02T18:00:00+02:00</published>
-  
-    <updated>2025-04-21T21:14:16+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Cursor-Editor-with-Sandbox/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="Troubleshooting" />
-    
-    <category term="Linux" />
-    
-    <category term="AI" />
-    
-  
-
-  <summary>Introduction  If you’re trying to run the Cursor AI Code Editor on Linux while keeping the sandbox enabled for security, you might run into errors like:  The setuid sandbox is not running as root. Common causes:   * An unprivileged process using ptrace on it, like a debugger.   * A parent process set prctl(PR_SET_NO_NEW_PRIVS, ...) Failed to move to new namespace: PID namespaces supported, Netw...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Strutted Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Strutted/" rel="alternate" type="text/html" title="HTB Strutted Writeup (Walkthrough)" />
-    <published>2025-03-27T17:00:00+01:00</published>
-  
-    <updated>2025-04-03T10:26:13+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Strutted/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Strutted/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Medium" />
-    
-  
-
-  <summary>Introduction  Strutted, a medium-difficulty Linux machine on HackTheBox, offers a practical exploration of real-world vulnerabilities and misconfigurations. Retired as a free instant challenge, this box focuses on exploiting CVE-2024-53677, a critical remote code execution flaw in Apache Struts 2, to gain an initial foothold. The machine simulates a compromised image-hosting platform hosted via...</summary>
 
   </entry>
 
