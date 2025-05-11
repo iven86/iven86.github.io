@@ -73,7 +73,7 @@
 <meta name="twitter:site" content="@iven86" />
 <meta name="twitter:creator" content="@Iven" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Iven"},"dateModified":"2025-05-09T18:00:00+02:00","datePublished":"2025-05-09T18:00:00+02:00","description":"Introduction","headline":"HTB Nineveh Writeup (Walkthrough)","image":{"width":150,"height":150,"url":"https://iven86.github.io/../../assets/img/medium/Nineveh.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://iven86.github.io/posts/Nineveh/"},"url":"https://iven86.github.io/posts/Nineveh/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Iven"},"dateModified":"2025-05-11T19:07:07+02:00","datePublished":"2025-05-09T18:00:00+02:00","description":"Introduction","headline":"HTB Nineveh Writeup (Walkthrough)","image":{"width":150,"height":150,"url":"https://iven86.github.io/../../assets/img/medium/Nineveh.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://iven86.github.io/posts/Nineveh/"},"url":"https://iven86.github.io/posts/Nineveh/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -724,69 +724,6 @@
 
       
     
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
       
 
       
@@ -1048,6 +985,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1746983227"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  May 11, 2025
+</time>
+
+        </span>
+      
 
       
         
@@ -1153,8 +1113,6 @@
     <h2 id="introduction"><span class="me-2">Introduction</span><a href="#introduction" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
 <p>Nineveh is a medium-difficulty Linux machine on HackTheBox that features web vulnerabilities, local file inclusion, and port knocking. This machine requires careful enumeration and creative thinking. In this write-up, I’ll guide you through my approach to compromising this box.</p>
-
-<p><a href="https://i.imgur.com/b4LFSm9.png" class="popup img-link  shimmer"><img src="https://i.imgur.com/b4LFSm9.png" alt="Nineveh" loading="lazy"></a></p>
 
 <h2 id="initial-scanning--enumeration"><span class="me-2">Initial Scanning &amp; Enumeration</span><a href="#initial-scanning--enumeration" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
@@ -1679,7 +1637,7 @@ tcpflags = syn
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Lame/">HTB Lame Writeup (Walkthrough)</a>
+          <a href="/posts/UnderPass/">HTB UnderPass Writeup (Walkthrough)</a>
         </li>
       
         
@@ -1693,21 +1651,21 @@ tcpflags = syn
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/Lame/">HTB Lame Writeup (Walkthrough)</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/Poison/">HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/Cypher_pwned/">HTB Cypher Writeup (Walkthrough)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/Heal_pwned/">HTB Heal Writeup (Walkthrough)</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/Cursor-Editor-with-Sandbox/">How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux</a>
         </li>
       
     </ul>
@@ -1856,99 +1814,6 @@ tcpflags = syn
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2072,6 +1937,151 @@ tcpflags = syn
     
     
     
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -2222,55 +2232,6 @@ tcpflags = syn
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2330,6 +2291,46 @@ tcpflags = syn
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -2369,8 +2370,15 @@ tcpflags = syn
     
     
     
+  
+    
+    
+    
+    
       
-    
+        
+        
+
   
     
     
@@ -2405,6 +2413,13 @@ tcpflags = syn
     
     
     
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -2435,10 +2450,10 @@ tcpflags = syn
         <a class="post-tag btn btn-outline-primary" href="/tags/writeup/">Writeup</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/oscp/">OSCP</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/htb-easy/">HTB-Easy</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/htb-easy/">HTB-Easy</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/oscp/">OSCP</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/htb-medium/">HTB-Medium</a>
@@ -2459,7 +2474,7 @@ tcpflags = syn
         <a class="post-tag btn btn-outline-primary" href="/tags/github/">GitHub</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/portswigger/">PortSwigger</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/lfi/">LFI</a>
       
     </div>
   </section>
@@ -2891,7 +2906,31 @@ tcpflags = syn
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -2905,6 +2944,34 @@ tcpflags = syn
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/Poison/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1746806400"
+  data-df="ll"
+  
+>
+  May  9, 2025
+</time>
+
+              <h4 class="pt-0 my-2">HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation</h4>
+              <div class="text-muted">
+                <p>HackTheBox - Poison: Complete Walkthrough  Introduction  Poison represents an excellent medium-difficulty FreeBSD machine on HackTheBox that provides valuable lessons in web vulnerabilities, passwo...</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/Tenet/" class="post-preview card h-100">
@@ -2962,34 +3029,6 @@ tcpflags = syn
           </a>
         </article>
       
-        <article class="col">
-          <a href="/posts/Cypher_pwned/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1745942400"
-  data-df="ll"
-  
->
-  Apr 29, 2025
-</time>
-
-              <h4 class="pt-0 my-2">HTB Cypher Writeup (Walkthrough)</h4>
-              <div class="text-muted">
-                <p>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -3014,9 +3053,13 @@ tcpflags = syn
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/Poison/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation</p>
+    </a>
   
 </nav>
 
@@ -3207,99 +3250,6 @@ tcpflags = syn
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3423,6 +3373,151 @@ tcpflags = syn
     
     
     
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
   
     
     
@@ -3573,55 +3668,6 @@ tcpflags = syn
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -3681,6 +3727,46 @@ tcpflags = syn
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -3720,8 +3806,15 @@ tcpflags = syn
     
     
     
+  
+    
+    
+    
+    
       
-    
+        
+        
+
   
     
     
@@ -3756,6 +3849,13 @@ tcpflags = syn
     
     
     
+    
+  
+    
+    
+    
+    
+      
     
   
     
@@ -3786,10 +3886,10 @@ tcpflags = syn
         <a class="post-tag btn btn-outline-primary" href="/tags/writeup/">Writeup</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/oscp/">OSCP</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/htb-easy/">HTB-Easy</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/htb-easy/">HTB-Easy</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/oscp/">OSCP</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/htb-medium/">HTB-Medium</a>
@@ -3810,7 +3910,7 @@ tcpflags = syn
         <a class="post-tag btn btn-outline-primary" href="/tags/github/">GitHub</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/portswigger/">PortSwigger</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/lfi/">LFI</a>
       
     </div>
   </section>

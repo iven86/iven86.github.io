@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-05-10T06:30:33+02:00</updated>
+  <updated>2025-05-11T19:09:05+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -20,11 +20,39 @@
 
   
   <entry>
+    <title>HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation</title>
+    <link href="https://iven86.github.io/posts/Poison/" rel="alternate" type="text/html" title="HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation" />
+    <published>2025-05-09T18:00:00+02:00</published>
+  
+    <updated>2025-05-09T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Poison/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Poison/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>HackTheBox - Poison: Complete Walkthrough  Introduction  Poison represents an excellent medium-difficulty FreeBSD machine on HackTheBox that provides valuable lessons in web vulnerabilities, password cracking, and privilege escalation through local port forwarding. What makes this box particularly interesting is its departure from the typical Linux-based machines, giving us an opportunity to ex...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>HTB Nineveh Writeup (Walkthrough)</title>
     <link href="https://iven86.github.io/posts/Nineveh/" rel="alternate" type="text/html" title="HTB Nineveh Writeup (Walkthrough)" />
     <published>2025-05-09T18:00:00+02:00</published>
   
-    <updated>2025-05-09T18:00:00+02:00</updated>
+    <updated>2025-05-11T19:07:07+02:00</updated>
   
     <id>https://iven86.github.io/posts/Nineveh/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Nineveh/" />
@@ -42,7 +70,7 @@
     
   
 
-  <summary>Introduction  Nineveh is a medium-difficulty Linux machine on HackTheBox that features web vulnerabilities, local file inclusion, and port knocking. This machine requires careful enumeration and creative thinking. In this write-up, I’ll guide you through my approach to compromising this box.    Initial Scanning &amp;amp;amp; Enumeration  First, let’s run an nmap scan to identify open ports and services...</summary>
+  <summary>Introduction  Nineveh is a medium-difficulty Linux machine on HackTheBox that features web vulnerabilities, local file inclusion, and port knocking. This machine requires careful enumeration and creative thinking. In this write-up, I’ll guide you through my approach to compromising this box.  Initial Scanning &amp;amp;amp; Enumeration  First, let’s run an nmap scan to identify open ports and services: ...</summary>
 
   </entry>
 
@@ -127,34 +155,6 @@
   
 
   <summary>Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46 Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-25 13:58 EDT Nmap scan report for 10.10.11.46 Host is up (0.21s latency). Not shown: 998 closed tcp ports (reset) PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3u...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Nocturnal Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Nocturnal_pwned/" rel="alternate" type="text/html" title="HTB Nocturnal Writeup (Walkthrough)" />
-    <published>2025-04-21T18:00:00+02:00</published>
-  
-    <updated>2025-04-21T18:00:00+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Nocturnal_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Nocturnal_pwned/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Easy" />
-    
-  
-
-  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
 
   </entry>
 

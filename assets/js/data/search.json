@@ -1,5 +1,13 @@
 [
   {
+    "title": "HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation",
+    "url": "/posts/Poison/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium, FreeBSD, LFI, Password-Cracking, VNC, Log-Poisoning, Port-Forwarding",
+    "date": "2025-05-09 18:00:00 +0200",
+    "content": "HackTheBox - Poison: Complete Walkthrough  Introduction  Poison represents an excellent medium-difficulty FreeBSD machine on HackTheBox that provides valuable lessons in web vulnerabilities, passwo..."
+  },
+  {
     "title": "HTB Nineveh Writeup (Walkthrough)",
     "url": "/posts/Nineveh/",
     "categories": "HackTheBox, Writeup, Medium",
@@ -38,6 +46,14 @@
     "tags": "Writeup, HTB-Easy",
     "date": "2025-04-21 18:00:00 +0200",
     "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
+  },
+  {
+    "title": "HTB UnderPass Writeup (Walkthrough)",
+    "url": "/posts/UnderPass/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-04-20 18:00:00 +0200",
+    "content": "Introduction  This writeup documents the process of compromising the “UnderPass” machine from Hack The Box. The machine features a web application with default credentials, an exploitable daloRADIU..."
   },
   {
     "title": "How to Properly Install and Run Cursor Editor with Sandbox Enabled on Linux",
