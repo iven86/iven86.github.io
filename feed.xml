@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-05-11T19:09:05+02:00</updated>
+  <updated>2025-05-18T08:20:57+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -133,13 +133,13 @@
   
   <entry>
     <title>HTB Heal Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Heal_pwned/" rel="alternate" type="text/html" title="HTB Heal Writeup (Walkthrough)" />
+    <link href="https://iven86.github.io/posts/Heal/" rel="alternate" type="text/html" title="HTB Heal Writeup (Walkthrough)" />
     <published>2025-04-25T18:00:00+02:00</published>
   
-    <updated>2025-04-25T18:00:00+02:00</updated>
+    <updated>2025-05-18T08:20:20+02:00</updated>
   
-    <id>https://iven86.github.io/posts/Heal_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Heal_pwned/" />
+    <id>https://iven86.github.io/posts/Heal/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Heal/" />
     <author>
       <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
     </author>
@@ -154,7 +154,7 @@
     
   
 
-  <summary>Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46 Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-25 13:58 EDT Nmap scan report for 10.10.11.46 Host is up (0.21s latency). Not shown: 998 closed tcp ports (reset) PORT   STATE SERVICE VERSION 22/tcp open  ssh     OpenSSH 8.9p1 Ubuntu 3u...</summary>
+  <summary>Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   Initial Enumeration  Port Scanning Starting with a standard Nmap scan to identify open ports and running services:  sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46   Results:    Port 22: SSH (OpenSSH 8.9p1 Ubuntu)   Port 80: HTTP (Nginx 1.18.0)            HTTP title redirects to http://heal.htb/           Added the ...</summary>
 
   </entry>
 
