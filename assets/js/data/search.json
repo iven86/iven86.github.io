@@ -1,5 +1,13 @@
 [
   {
+    "title": "SQLite MCP Server - A Game-Changer for Development Workflows",
+    "url": "/posts/SQLite-MCP-Server/",
+    "categories": "AI, MCP",
+    "tags": "AI, MCP",
+    "date": "2025-06-06 18:00:00 +0200",
+    "content": "Hey folks,  I want to share a tool I built that’s been a game-changer in my development workflow: sqlite-mcp-server.  This tool allows me to serve SQLite databases over HTTP, making it incredibly e..."
+  },
+  {
     "title": "HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation",
     "url": "/posts/Poison/",
     "categories": "HackTheBox, Writeup, Medium",
