@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-06-07T18:31:02+02:00</updated>
+  <updated>2025-06-11T18:56:11+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Building Your First MCP Server, A Complete Beginner's Guide</title>
+    <link href="https://iven86.github.io/posts/Building-Your-First-MCP-Server/" rel="alternate" type="text/html" title="Building Your First MCP Server, A Complete Beginner&amp;apos;s Guide" />
+    <published>2025-06-10T18:00:00+02:00</published>
+  
+    <updated>2025-06-10T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Building-Your-First-MCP-Server/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Building-Your-First-MCP-Server/" />
+    <author>
+      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="MCP" />
+    
+  
+
+  <summary>Building Your First MCP Server: A Complete Beginner’s Guide  Have you ever wondered how AI agents like Claude connect to external tools and data sources? The answer lies in something called the Model Context Protocol (MCP). Today, I’ll walk you through building a simple but complete MCP server from scratch, explaining every piece along the way.  What is MCP and Why Should You Care?  The Model C...</summary>
+
+  </entry>
 
   
   <entry>
@@ -125,34 +151,6 @@
   
 
   <summary>Introduction  Lame was the first box released on HackTheBox, and it’s considered an excellent starting point for beginners. This machine demonstrates classic vulnerabilities in outdated services and provides a straightforward path to root access. In this writeup, I’ll walk through the enumeration process and present multiple methods to exploit this Linux machine.  Machine Overview     Name: Lam...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Cypher Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Cypher_pwned/" rel="alternate" type="text/html" title="HTB Cypher Writeup (Walkthrough)" />
-    <published>2025-04-29T18:00:00+02:00</published>
-  
-    <updated>2025-04-29T18:00:00+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Cypher_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Cypher_pwned/" />
-    <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Medium" />
-    
-  
-
-  <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap 7.95 scan initiated Wed Apr 30 10:16:45 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA cypher 10.10.11.57 Nmap scan report for cypher.htb (10.10.11.57) Host is up (0.10s latency). Not shown: 99...</summary>
 
   </entry>
 

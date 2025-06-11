@@ -1,5 +1,13 @@
 [
   {
+    "title": "Building Your First MCP Server, A Complete Beginner's Guide",
+    "url": "/posts/Building-Your-First-MCP-Server/",
+    "categories": "AI, MCP",
+    "tags": "AI, MCP",
+    "date": "2025-06-10 18:00:00 +0200",
+    "content": "Building Your First MCP Server: A Complete Beginner’s Guide  Have you ever wondered how AI agents like Claude connect to external tools and data sources? The answer lies in something called the Mod..."
+  },
+  {
     "title": "SQLite MCP Server - A Game-Changer for Development Workflows",
     "url": "/posts/SQLite-MCP-Server/",
     "categories": "AI, MCP",
