@@ -104,6 +104,14 @@
     "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
   },
   {
+    "title": "HTB Titanic Writeup (Walkthrough)",
+    "url": "/posts/Titanic/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-03-26 17:00:00 +0100",
+    "content": "INFO Machine IP = 10.10.11.55 OS = Linux Level = EASY Points = 20  Let’s start by adding the machine to our hosts file: echo &quot;10.10.11.55 titanic.htb dev.titanic.htb&quot; &amp;gt;&amp;gt; /etc/hosts   Enumerat..."
+  },
+  {
     "title": "HTB Alert Writeup (Walkthrough)",
     "url": "/posts/Alert/",
     "categories": "HackTheBox, Writeup, Easy",
