@@ -97,14 +97,6 @@
   },
   {
     "title": "HTB Titanic Writeup (Walkthrough)",
-    "url": "/posts/Titanic_pwned/",
-    "categories": "HackTheBox, Writeup, Easy",
-    "tags": "Writeup, HTB-Easy",
-    "date": "2025-03-26 17:00:00 +0100",
-    "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
-  },
-  {
-    "title": "HTB Titanic Writeup (Walkthrough)",
     "url": "/posts/Titanic/",
     "categories": "HackTheBox, Writeup, Easy",
     "tags": "Writeup, HTB-Easy",
