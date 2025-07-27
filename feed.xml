@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-07-27T14:12:17+02:00</updated>
+  <updated>2025-07-27T14:36:44+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -24,12 +24,12 @@
     <link href="https://iven86.github.io/posts/Cypher/" rel="alternate" type="text/html" title="HTB Cypher Writeup (Walkthrough)" />
     <published>2025-07-26T18:00:00+02:00</published>
   
-    <updated>2025-07-27T11:45:07+02:00</updated>
+    <updated>2025-07-27T14:36:12+02:00</updated>
   
     <id>https://iven86.github.io/posts/Cypher/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Cypher/" />
     <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+      <name>iven</name>
     </author>
 
   
@@ -52,12 +52,12 @@
     <link href="https://iven86.github.io/posts/Dog/" rel="alternate" type="text/html" title="HTB Dog Writeup" />
     <published>2025-07-25T18:00:00+02:00</published>
   
-    <updated>2025-07-27T11:45:07+02:00</updated>
+    <updated>2025-07-27T14:36:12+02:00</updated>
   
     <id>https://iven86.github.io/posts/Dog/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Dog/" />
     <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+      <name>iven</name>
     </author>
 
   
@@ -80,12 +80,12 @@
     <link href="https://iven86.github.io/posts/Building-Your-First-MCP-Server/" rel="alternate" type="text/html" title="Building Your First MCP Server, A Complete Beginner&amp;apos;s Guide" />
     <published>2025-06-10T18:00:00+02:00</published>
   
-    <updated>2025-06-11T18:59:56+02:00</updated>
+    <updated>2025-07-27T14:36:12+02:00</updated>
   
     <id>https://iven86.github.io/posts/Building-Your-First-MCP-Server/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Building-Your-First-MCP-Server/" />
     <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+      <name>iven</name>
     </author>
 
   
@@ -106,12 +106,12 @@
     <link href="https://iven86.github.io/posts/SQLite-MCP-Server/" rel="alternate" type="text/html" title="SQLite MCP Server - A Game-Changer for Development Workflows" />
     <published>2025-06-06T18:00:00+02:00</published>
   
-    <updated>2025-06-07T18:30:33+02:00</updated>
+    <updated>2025-07-27T14:36:12+02:00</updated>
   
     <id>https://iven86.github.io/posts/SQLite-MCP-Server/</id>
     <content type="text/html" src="https://iven86.github.io/posts/SQLite-MCP-Server/" />
     <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+      <name>iven</name>
     </author>
 
   
@@ -132,12 +132,12 @@
     <link href="https://iven86.github.io/posts/Poison/" rel="alternate" type="text/html" title="HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation" />
     <published>2025-05-09T18:00:00+02:00</published>
   
-    <updated>2025-05-09T18:00:00+02:00</updated>
+    <updated>2025-07-27T14:36:12+02:00</updated>
   
     <id>https://iven86.github.io/posts/Poison/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Poison/" />
     <author>
-      <name>{"name"=>"Iven", "link"=>"https://github.com/iven86"}</name>
+      <name>iven</name>
     </author>
 
   

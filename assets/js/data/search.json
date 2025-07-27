@@ -168,11 +168,19 @@
     "content": "INFO Machine IP = 10.10.11.143 OS       = Linux Level    = Easy Points   = 20  SCANNING - Nmap: # Nmap 7.92 scan initiated Sun Mar 13 11:10:47 2022 as: nmap -sV -sC -oA /home/kali/Desktop/nmap/Pape..."
   },
   {
+    "title": "Auto send collaborators invitation to GitHub repos after they pay or donate",
+    "url": "/posts/auto-send-collaborators-invitation-to-github-repos-after-they-pay-or-donate/",
+    "categories": "DevOps",
+    "tags": "DevOps, Python3, GitHub API",
+    "date": "2021-12-31 17:00:00 +0100",
+    "content": "Auto send collaborators invitation to GitHub repos after they pay or donate    In this article, I going on how to use Google forms to collect donations, support, or sponsor your project even you ca..."
+  },
+  {
     "title": "RPI Zero W E: You don't have enough free space in /var/cache/apt/archives/. [Solved]",
     "url": "/posts/note-rpi-space-issue/",
     "categories": "Linux",
     "tags": "Note, Troubleshooting, Linux",
-    "date": "2021-08-28 00:00:00 +0200",
+    "date": "2021-08-27 18:00:00 +0200",
     "content": "RPI Zero W E: You don’t have enough free space in /var/cache/apt/archives/. [Solved]    This error message showed up on a raspberry pi zero-w with a fresh install of Raspbian or others OS-related. ..."
   },
   {
@@ -180,7 +188,7 @@
     "url": "/posts/note-github-merg-tool-is-not-congfigured/",
     "categories": "DevOps",
     "tags": "DevOps, Troubleshooting, Linux, GitHub",
-    "date": "2021-06-19 00:00:00 +0200",
+    "date": "2021-06-18 18:00:00 +0200",
     "content": "Error[Solved]: GitHub ‘merge.tool’ is not configured    This message is displayed because ‘merge.tool’ is not configured.  Error Msg. See &#39;git mergetool --tool-help&#39; or &#39;git help config&#39; for more d..."
   },
   {
@@ -188,7 +196,7 @@
     "url": "/posts/github-actions-run-bash-script/",
     "categories": "DevOps",
     "tags": "DevOps, Script, Note, GitHub",
-    "date": "2021-05-15 00:00:00 +0200",
+    "date": "2021-05-14 18:00:00 +0200",
     "content": "GitHub actions run bash script and push to another repository    Today I going to share with you the idea of how to do automation to run a script for reporting or monitoring your system, cloud, etc..."
   },
   {
@@ -196,7 +204,7 @@
     "url": "/posts/captive-portal-attack/",
     "categories": "Cyber Security",
     "tags": "Cyber Security",
-    "date": "2021-05-12 00:00:00 +0200",
+    "date": "2021-05-11 18:00:00 +0200",
     "content": "Captive portal attack!    A captive portal is a web page accessed with a web browser that is displayed to newly connected users of a Wi-Fi or wired network before they are granted broader access to..."
   },
   {
@@ -204,16 +212,8 @@
     "url": "/posts/replace-a-string-in-multiple-files-in-linux-command-line/",
     "categories": "Linux",
     "tags": "DevOps, Note, Linux",
-    "date": "2020-12-02 00:00:00 +0100",
+    "date": "2020-12-01 17:00:00 +0100",
     "content": "Replace a string in multiple files in Linux command line    When working with text files, you’ll often need to find and replace strings of text in one or more files.  So let’s bind some commands li..."
-  },
-  {
-    "title": "Auto send collaborators invitation to GitHub repos after they pay or donate",
-    "url": "/posts/auto-send-collaborators-invitation-to-github-repos-after-they-pay-or-donate/",
-    "categories": "DevOps",
-    "tags": "DevOps, Python3, GitHub API",
-    "date": "2020-07-02 18:00:00 +0200",
-    "content": "Auto send collaborators invitation to GitHub repos after they pay or donate    In this article, I going on how to use Google forms to collect donations, support, or sponsor your project even you ca..."
   },
   {
     "title": "Remove Unnecessary Configuration Files On Linux (Debian-based Systems)",
