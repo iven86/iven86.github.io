@@ -1,5 +1,21 @@
 [
   {
+    "title": "HTB Cypher Writeup (Walkthrough)",
+    "url": "/posts/Cypher/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium",
+    "date": "2025-07-26 18:00:00 +0200",
+    "content": "Overview This write-up documents the penetration testing process for the Cypher machine, focusing on Neo4j Cypher injection and privilege escalation through custom APOC extensions.    Reconnaissanc..."
+  },
+  {
+    "title": "HTB Dog Writeup",
+    "url": "/posts/Dog/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-07-25 18:00:00 +0200",
+    "content": "INFO Machine IP = 10.10.11.58 OS = Linux Level = EASY Points = 20  Let’s start by adding the machine to our hosts file: echo &quot;10.10.11.58 dog.htb&quot; &amp;gt;&amp;gt; /etc/hosts   Enumeration  Port Scanning n..."
+  },
+  {
     "title": "Building Your First MCP Server, A Complete Beginner's Guide",
     "url": "/posts/Building-Your-First-MCP-Server/",
     "categories": "AI, MCP",
