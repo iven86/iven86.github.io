@@ -1,5 +1,21 @@
 [
   {
+    "title": "BruteForceAI: When AI Meets Penetration Testing - A Game Changer",
+    "url": "/posts/BruteForceAI-Revolutionary-Pentesting-Tool/",
+    "categories": "Security, AI, Penetration Testing",
+    "tags": "AI, Security, BruteForce, PenTest, LLM, Automation",
+    "date": "2025-07-27 14:00:00 +0200",
+    "content": "BruteForceAI: The Future of Intelligent Penetration Testing is Here  Hey security folks! I just discovered something that completely blew my mind, and I had to share it with you immediately. We’ve ..."
+  },
+  {
+    "title": "PortTracker: A Game-Changer for Network Monitoring - No More Port Conflicts!",
+    "url": "/posts/PortTracker-Network-Monitoring-Tool/",
+    "categories": "DevOps, Tools, Networking",
+    "tags": "DevOps, Docker, Monitoring, Network, Tools",
+    "date": "2025-07-27 12:30:00 +0200",
+    "content": "PortTracker: Finally, a Simple Solution to Network Port Management  Hey everyone! I recently stumbled upon a tool that’s been a real lifesaver for my homelab setup, and I just had to share it with ..."
+  },
+  {
     "title": "HTB Cypher Writeup (Walkthrough)",
     "url": "/posts/Cypher/",
     "categories": "HackTheBox, Writeup, Medium",

@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-07-27T14:36:44+02:00</updated>
+  <updated>2025-07-27T15:08:40+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,62 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>BruteForceAI: When AI Meets Penetration Testing - A Game Changer</title>
+    <link href="https://iven86.github.io/posts/BruteForceAI-Revolutionary-Pentesting-Tool/" rel="alternate" type="text/html" title="BruteForceAI: When AI Meets Penetration Testing - A Game Changer" />
+    <published>2025-07-27T14:00:00+02:00</published>
+  
+    <updated>2025-07-27T14:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/BruteForceAI-Revolutionary-Pentesting-Tool/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/BruteForceAI-Revolutionary-Pentesting-Tool/" />
+    <author>
+      <name>iven</name>
+    </author>
+
+  
+    
+    <category term="Security" />
+    
+    <category term="AI" />
+    
+    <category term="Penetration Testing" />
+    
+  
+
+  <summary>BruteForceAI: The Future of Intelligent Penetration Testing is Here  Hey security folks! I just discovered something that completely blew my mind, and I had to share it with you immediately. We’ve all been doing brute force attacks the “traditional” way for years, manually crafting selectors, hoping our scripts work on different login forms, and dealing with the constant headache of form variat...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>PortTracker: A Game-Changer for Network Monitoring - No More Port Conflicts!</title>
+    <link href="https://iven86.github.io/posts/PortTracker-Network-Monitoring-Tool/" rel="alternate" type="text/html" title="PortTracker: A Game-Changer for Network Monitoring - No More Port Conflicts!" />
+    <published>2025-07-27T12:30:00+02:00</published>
+  
+    <updated>2025-07-27T12:30:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/PortTracker-Network-Monitoring-Tool/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/PortTracker-Network-Monitoring-Tool/" />
+    <author>
+      <name>iven</name>
+    </author>
+
+  
+    
+    <category term="DevOps" />
+    
+    <category term="Tools" />
+    
+    <category term="Networking" />
+    
+  
+
+  <summary>PortTracker: Finally, a Simple Solution to Network Port Management  Hey everyone! I recently stumbled upon a tool that’s been a real lifesaver for my homelab setup, and I just had to share it with you all. If you’ve ever deployed a service only to find out port 8080 is already taken by something else, or if you’ve been managing your network services in a messy spreadsheet (we’ve all been there!...</summary>
+
+  </entry>
 
   
   <entry>
@@ -97,60 +153,6 @@
   
 
   <summary>Building Your First MCP Server: A Complete Beginner’s Guide  Have you ever wondered how AI agents like Claude connect to external tools and data sources? The answer lies in something called the Model Context Protocol (MCP). Today, I’ll walk you through building a simple but complete MCP server from scratch, explaining every piece along the way.  What is MCP and Why Should You Care?  The Model C...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>SQLite MCP Server - A Game-Changer for Development Workflows</title>
-    <link href="https://iven86.github.io/posts/SQLite-MCP-Server/" rel="alternate" type="text/html" title="SQLite MCP Server - A Game-Changer for Development Workflows" />
-    <published>2025-06-06T18:00:00+02:00</published>
-  
-    <updated>2025-07-27T14:36:12+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/SQLite-MCP-Server/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/SQLite-MCP-Server/" />
-    <author>
-      <name>iven</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="MCP" />
-    
-  
-
-  <summary>Hey folks,  I want to share a tool I built that’s been a game-changer in my development workflow: sqlite-mcp-server.  This tool allows me to serve SQLite databases over HTTP, making it incredibly easy to integrate with AI agents in VS Code. Here’s how it’s been helping me:  Key Benefits  Seamless Demo Data Generation I can prompt AI agents to generate realistic demo data by exposing my SQLite d...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation</title>
-    <link href="https://iven86.github.io/posts/Poison/" rel="alternate" type="text/html" title="HTB Poison Walkthrough - A Deep Dive into FreeBSD Exploitation" />
-    <published>2025-05-09T18:00:00+02:00</published>
-  
-    <updated>2025-07-27T14:36:12+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Poison/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Poison/" />
-    <author>
-      <name>iven</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Medium" />
-    
-  
-
-  <summary>HackTheBox - Poison: Complete Walkthrough  Introduction  Poison represents an excellent medium-difficulty FreeBSD machine on HackTheBox that provides valuable lessons in web vulnerabilities, password cracking, and privilege escalation through local port forwarding. What makes this box particularly interesting is its departure from the typical Linux-based machines, giving us an opportunity to ex...</summary>
 
   </entry>
 
