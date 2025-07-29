@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-07-27T15:08:40+02:00</updated>
+  <updated>2025-07-29T21:39:18+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB planning has been pwned!</title>
+    <link href="https://iven86.github.io/posts/Planning_pwned/" rel="alternate" type="text/html" title="HTB planning has been pwned!" />
+    <published>2025-07-28T18:00:00+02:00</published>
+  
+    <updated>2025-07-28T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Planning_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Planning_pwned/" />
+    <author>
+      <name>iven</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
+
+  </entry>
 
   
   <entry>
@@ -127,32 +155,6 @@
   
 
   <summary>INFO Machine IP = 10.10.11.58 OS = Linux Level = EASY Points = 20  Let’s start by adding the machine to our hosts file: echo &amp;quot;10.10.11.58 dog.htb&amp;quot; &amp;amp;gt;&amp;amp;gt; /etc/hosts   Enumeration  Port Scanning nmap -sC -sV -oA initial_scan 10.10.11.58   Open Ports:    22/tcp: OpenSSH   80/tcp: Apache 2.4.41 (HTTP)   Directory Enumeration (gobuster) gobuster dir -u http://10.10.11.58 -w /usr/share/wordlists/d...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Building Your First MCP Server, A Complete Beginner's Guide</title>
-    <link href="https://iven86.github.io/posts/Building-Your-First-MCP-Server/" rel="alternate" type="text/html" title="Building Your First MCP Server, A Complete Beginner&amp;apos;s Guide" />
-    <published>2025-06-10T18:00:00+02:00</published>
-  
-    <updated>2025-07-27T14:36:12+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Building-Your-First-MCP-Server/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Building-Your-First-MCP-Server/" />
-    <author>
-      <name>iven</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="MCP" />
-    
-  
-
-  <summary>Building Your First MCP Server: A Complete Beginner’s Guide  Have you ever wondered how AI agents like Claude connect to external tools and data sources? The answer lies in something called the Model Context Protocol (MCP). Today, I’ll walk you through building a simple but complete MCP server from scratch, explaining every piece along the way.  What is MCP and Why Should You Care?  The Model C...</summary>
 
   </entry>
 
