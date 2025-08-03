@@ -6,7 +6,16 @@ Scrape the last N videos from @ippsec and flip
 import os, re, yaml, feedparser, pathlib
 
 YOUTUBE_RSS = "https://www.youtube.com/feeds/videos.xml?channel_id=UCa6eh7gCkpPo5XXUDfygQQA"
-POST_DIR    = pathlib.Path("../_posts")  # Go up one level from scripts/ to _posts/
+
+# Dynamic path resolution to handle spaces in directory names
+script_dir = pathlib.Path(__file__).parent
+project_root = script_dir.parent
+POST_DIR = project_root / "_posts"
+
+print(f"🔍 Script location: {script_dir}")
+print(f"🔍 Project root: {project_root}")
+print(f"🔍 POST_DIR: {POST_DIR}")
+print(f"🔍 POST_DIR exists: {POST_DIR.exists()}")
 
 def ctf_name_from_title(title: str):
     """Extract CTF name from various title formats"""
@@ -14,24 +23,29 @@ def ctf_name_from_title(title: str):
     clean_title = title.strip()
     
     patterns = [
-        # HTB formats
-        r'\bhtb\s+([a-zA-Z0-9_-]+)(?:\s+(?:writeup|walkthrough|retired))?',  # HTB Code
-        r'\bhtb\s*-\s*([a-zA-Z0-9_-]+)',  # HTB - Code
+        # HackTheBox formats (FIXED - order matters!)
+        r'hackthebox\s*-\s*([a-zA-Z0-9_]+)',        # HackTheBox - Code (NO DASH in character class)
+        r'hackthebox\s+([a-zA-Z0-9_]+)',            # HackTheBox Code
+        r'hack\s*the\s*box\s*-\s*([a-zA-Z0-9_]+)',  # Hack The Box - Code
+        r'hack\s*the\s*box\s+([a-zA-Z0-9_]+)',      # Hack The Box Code
         
-        # HackTheBox formats  
-        r'hackthebox\s+([a-zA-Z0-9_-]+)',           # HackTheBox Code
-        r'hackthebox\s*-\s*([a-zA-Z0-9_-]+)',       # HackTheBox - Code (THIS FIXES YOUR ISSUE)
-        r'hack\s*the\s*box\s*-?\s*([a-zA-Z0-9_-]+)', # Hack The Box Code/Hack The Box - Code
+        # HTB formats
+        r'\bhtb\s*-\s*([a-zA-Z0-9_]+)',             # HTB - Code
+        r'\bhtb\s+([a-zA-Z0-9_]+)(?:\s+(?:writeup|walkthrough|retired))?',  # HTB Code
         
         # Reverse formats
-        r'([a-zA-Z0-9_-]+)\s+htb',                  # Code HTB
-        r'([a-zA-Z0-9_-]+)\s*-\s*htb',             # Code - HTB
+        r'([a-zA-Z0-9_]+)\s*-\s*htb',               # Code - HTB
+        r'([a-zA-Z0-9_]+)\s+htb',                   # Code HTB
     ]
     
     for pattern in patterns:
-        m = re.search(pattern, title, flags=re.I)
+        m = re.search(pattern, clean_title, flags=re.I)
         if m:
-            return m.group(1).lower().strip()
+            extracted = m.group(1).lower().strip()
+            print(f"🔍 Pattern matched: '{pattern}' -> '{extracted}' from '{clean_title}'")
+            return extracted
+    
+    print(f"❌ No pattern matched for: '{clean_title}'")
     return None
 
 def update_published_status_only(file_path, new_status=True):
@@ -77,12 +91,13 @@ def main():
     
     print("\n--- Recent IppSec Videos ---")
     for i, entry in enumerate(feed.entries[:20], 1):
+        print(f"{i:2d}. Raw title: '{entry.title}'")  # Enhanced debug output
         ctf_name = ctf_name_from_title(entry.title)
         if ctf_name:
             published_ctfs.add(ctf_name)
-            print(f"{i:2d}. {entry.title} -> CTF: '{ctf_name}'")
+            print(f"    -> CTF: '{ctf_name}' ✅")
         else:
-            print(f"{i:2d}. {entry.title} -> No CTF match")
+            print(f"    -> No CTF match ❌")
     
     print(f"\nAll extracted CTF names: {sorted(published_ctfs)}")
 

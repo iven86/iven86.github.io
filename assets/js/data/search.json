@@ -89,6 +89,14 @@
   },
   {
     "title": "HTB Heal Writeup (Walkthrough)",
+    "url": "/posts/Heal_pwned/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium",
+    "date": "2025-04-25 18:00:00 +0200",
+    "content": "Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   ┌──(kali㉿kali)-[~/Desktop] └─$ sudo nmap -sC -sV -oA Heal/Heal 10.10.11.46 Starting Nmap 7.95 ( https://nmap.org ..."
+  },
+  {
+    "title": "HTB Heal Writeup (Walkthrough)",
     "url": "/posts/Heal/",
     "categories": "HackTheBox, Writeup, Medium",
     "tags": "Writeup, HTB-Medium",
@@ -133,6 +141,22 @@
     "categories": "HackTheBox, Writeup, Easy",
     "tags": "Writeup, HTB-Easy",
     "date": "2025-03-27 17:00:00 +0100",
+    "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
+  },
+  {
+    "title": "HTB Code Writeup (Walkthrough)",
+    "url": "/posts/Code/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-03-27 17:00:00 +0100",
+    "content": "Introduction  This is a detailed walkthrough for the “Code” machine on Hack The Box. The target is a Linux system running a Python Code Editor web application vulnerable to database query exposure ..."
+  },
+  {
+    "title": "HTB Titanic Writeup (Walkthrough)",
+    "url": "/posts/Titanic_pwned/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-03-26 17:00:00 +0100",
     "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
   },
   {
