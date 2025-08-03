@@ -80,7 +80,7 @@
     "content": "Introduction  Lame was the first box released on HackTheBox, and it’s considered an excellent starting point for beginners. This machine demonstrates classic vulnerabilities in outdated services an..."
   },
   {
-    "title": "HTB Cypher Writeup (Walkthrough)",
+    "title": "HTB Cypher has been pwned!",
     "url": "/posts/Cypher_pwned/",
     "categories": "HackTheBox, Writeup, Medium",
     "tags": "Writeup, HTB-Medium",
@@ -104,7 +104,7 @@
     "content": "Machine Overview    Name: Heal   Difficulty: Medium   OS: Linux   IP: 10.10.11.46   Initial Enumeration  Port Scanning Starting with a standard Nmap scan to identify open ports and running services..."
   },
   {
-    "title": "HTB Nocturnal Writeup (Walkthrough)",
+    "title": "HTB Nocturnal has been pwned!",
     "url": "/posts/Nocturnal_pwned/",
     "categories": "HackTheBox, Writeup, Easy",
     "tags": "Writeup, HTB-Easy",
@@ -136,7 +136,7 @@
     "content": "Introduction  Strutted, a medium-difficulty Linux machine on HackTheBox, offers a practical exploration of real-world vulnerabilities and misconfigurations. Retired as a free instant challenge, thi..."
   },
   {
-    "title": "HTB Code Writeup (Walkthrough)",
+    "title": "HTB Code has been pwned!",
     "url": "/posts/Code_pwned/",
     "categories": "HackTheBox, Writeup, Easy",
     "tags": "Writeup, HTB-Easy",
@@ -152,7 +152,7 @@
     "content": "Introduction  This is a detailed walkthrough for the “Code” machine on Hack The Box. The target is a Linux system running a Python Code Editor web application vulnerable to database query exposure ..."
   },
   {
-    "title": "HTB Titanic Writeup (Walkthrough)",
+    "title": "HTB Titanic has been pwned!",
     "url": "/posts/Titanic_pwned/",
     "categories": "HackTheBox, Writeup, Easy",
     "tags": "Writeup, HTB-Easy",
