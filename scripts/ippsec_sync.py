@@ -10,10 +10,22 @@ POST_DIR    = pathlib.Path("../_posts")  # Go up one level from scripts/ to _pos
 
 def ctf_name_from_title(title: str):
     """Extract CTF name from various title formats"""
+    # Clean the title first
+    clean_title = title.strip()
+    
     patterns = [
-        r'\bhtb\s+([a-zA-Z0-9_-]+)(?:\s+(?:writeup|walkthrough|retired))?',
-        r'hackthebox\s+([a-zA-Z0-9_-]+)',
-        r'([a-zA-Z0-9_-]+)\s+htb',
+        # HTB formats
+        r'\bhtb\s+([a-zA-Z0-9_-]+)(?:\s+(?:writeup|walkthrough|retired))?',  # HTB Code
+        r'\bhtb\s*-\s*([a-zA-Z0-9_-]+)',  # HTB - Code
+        
+        # HackTheBox formats  
+        r'hackthebox\s+([a-zA-Z0-9_-]+)',           # HackTheBox Code
+        r'hackthebox\s*-\s*([a-zA-Z0-9_-]+)',       # HackTheBox - Code (THIS FIXES YOUR ISSUE)
+        r'hack\s*the\s*box\s*-?\s*([a-zA-Z0-9_-]+)', # Hack The Box Code/Hack The Box - Code
+        
+        # Reverse formats
+        r'([a-zA-Z0-9_-]+)\s+htb',                  # Code HTB
+        r'([a-zA-Z0-9_-]+)\s*-\s*htb',             # Code - HTB
     ]
     
     for pattern in patterns:
