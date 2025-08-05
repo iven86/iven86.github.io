@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-08-04T17:04:51+02:00</updated>
+  <updated>2025-08-05T20:28:08+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -28,6 +28,34 @@
   
     <id>https://iven86.github.io/posts/Planning_pwned/</id>
     <content type="text/html" src="https://iven86.github.io/posts/Planning_pwned/" />
+    <author>
+      <name>iven</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>HTB Editor has been Pwned!</title>
+    <link href="https://iven86.github.io/posts/Editor_pwned/" rel="alternate" type="text/html" title="HTB Editor has been Pwned!" />
+    <published>2025-07-28T18:00:00+02:00</published>
+  
+    <updated>2025-07-28T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Editor_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Editor_pwned/" />
     <author>
       <name>iven</name>
     </author>
@@ -127,34 +155,6 @@
   
 
   <summary>Overview This write-up documents the penetration testing process for the Cypher machine, focusing on Neo4j Cypher injection and privilege escalation through custom APOC extensions.    Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap 7.95 scan initi...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Dog Writeup</title>
-    <link href="https://iven86.github.io/posts/Dog/" rel="alternate" type="text/html" title="HTB Dog Writeup" />
-    <published>2025-07-25T18:00:00+02:00</published>
-  
-    <updated>2025-07-27T14:36:12+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Dog/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Dog/" />
-    <author>
-      <name>iven</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Easy" />
-    
-  
-
-  <summary>INFO Machine IP = 10.10.11.58 OS = Linux Level = EASY Points = 20  Let’s start by adding the machine to our hosts file: echo &amp;quot;10.10.11.58 dog.htb&amp;quot; &amp;amp;gt;&amp;amp;gt; /etc/hosts   Enumeration  Port Scanning nmap -sC -sV -oA initial_scan 10.10.11.58   Open Ports:    22/tcp: OpenSSH   80/tcp: Apache 2.4.41 (HTTP)   Directory Enumeration (gobuster) gobuster dir -u http://10.10.11.58 -w /usr/share/wordlists/d...</summary>
 
   </entry>
 
