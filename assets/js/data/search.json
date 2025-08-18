@@ -120,6 +120,14 @@
     "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
   },
   {
+    "title": "HTB Nocturnal Writeup (Walkthrough)",
+    "url": "/posts/Nocturnal/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-04-21 18:00:00 +0200",
+    "content": "Introduction  Nocturnal is an easy-difficulty Linux machine on HackTheBox that provides an engaging challenge focused on web application security and privilege escalation. This writeup documents my..."
+  },
+  {
     "title": "HTB UnderPass Writeup (Walkthrough)",
     "url": "/posts/UnderPass/",
     "categories": "HackTheBox, Writeup, Easy",
@@ -386,7 +394,7 @@
   {
     "title": "HTB Spider Writeup",
     "url": "/posts/Spider/",
-    "categories": "HackTheBox, OSCP, Writeup",
+    "categories": "HackTheBox, Writeup, Hard",
     "tags": "Writeup, OSCP",
     "date": "2020-03-11 17:00:00 +0100",
     "content": ""
