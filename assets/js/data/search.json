@@ -1,5 +1,13 @@
 [
   {
+    "title": "HTB Era has been pwned!",
+    "url": "/posts/Era_pwned/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium",
+    "date": "2025-08-20 18:00:00 +0200",
+    "content": "Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.79 era.htb file.era.htb   Port Scanning ┌──(kali㉿kali)-[~] └─$ nmap -sC -sV -oA era 10.10.11.79  # Nmap 7.95 sc..."
+  },
+  {
     "title": "HTB Editor has been Pwned!",
     "url": "/posts/Editor_pwned/",
     "categories": "HackTheBox, Writeup, Easy",
@@ -86,14 +94,6 @@
     "tags": "Writeup, HTB-Easy, Samba, vsftpd, Metasploit, distcc",
     "date": "2025-05-09 18:00:00 +0200",
     "content": "Introduction  Lame was the first box released on HackTheBox, and it’s considered an excellent starting point for beginners. This machine demonstrates classic vulnerabilities in outdated services an..."
-  },
-  {
-    "title": "HTB Era has been pwned!",
-    "url": "/posts/Era_pwned/",
-    "categories": "HackTheBox, Writeup, Medium",
-    "tags": "Writeup, HTB-Medium",
-    "date": "2025-04-29 18:00:00 +0200",
-    "content": "Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.79 era.htb file.era.htb   Port Scanning ┌──(kali㉿kali)-[~] └─$ nmap -sC -sV -oA era 10.10.11.79  # Nmap 7.95 sc..."
   },
   {
     "title": "HTB Cypher has been pwned!",

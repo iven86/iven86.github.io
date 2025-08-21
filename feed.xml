@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-08-21T20:50:48+02:00</updated>
+  <updated>2025-08-21T20:52:03+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB Era has been pwned!</title>
+    <link href="https://iven86.github.io/posts/Era_pwned/" rel="alternate" type="text/html" title="HTB Era has been pwned!" />
+    <published>2025-08-20T18:00:00+02:00</published>
+  
+    <updated>2025-08-21T20:51:41+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Era_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Era_pwned/" />
+    <author>
+      <name>iven</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.79 era.htb file.era.htb   Port Scanning ┌──(kali㉿kali)-[~] └─$ nmap -sC -sV -oA era 10.10.11.79  # Nmap 7.95 scan initiated Tue Aug 19 12:58:36 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA era 10.10.11.79 Nmap scan report for era.htb (10.10.11.79) Host is up (0.13s latency). Not shown: 998 closed tcp p...</summary>
+
+  </entry>
 
   
   <entry>
@@ -127,34 +155,6 @@
   
 
   <summary>PortTracker: Finally, a Simple Solution to Network Port Management  Hey everyone! I recently stumbled upon a tool that’s been a real lifesaver for my homelab setup, and I just had to share it with you all. If you’ve ever deployed a service only to find out port 8080 is already taken by something else, or if you’ve been managing your network services in a messy spreadsheet (we’ve all been there!...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Cypher Writeup (Walkthrough)</title>
-    <link href="https://iven86.github.io/posts/Cypher/" rel="alternate" type="text/html" title="HTB Cypher Writeup (Walkthrough)" />
-    <published>2025-07-26T18:00:00+02:00</published>
-  
-    <updated>2025-07-27T14:36:12+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Cypher/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Cypher/" />
-    <author>
-      <name>iven</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Medium" />
-    
-  
-
-  <summary>Overview This write-up documents the penetration testing process for the Cypher machine, focusing on Neo4j Cypher injection and privilege escalation through custom APOC extensions.    Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.57 cypher.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/cypher] └─$ nmap -sC -sV -oA cypher 10.10.11.57  # Nmap 7.95 scan initi...</summary>
 
   </entry>
 
