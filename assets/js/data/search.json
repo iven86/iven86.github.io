@@ -1,5 +1,13 @@
 [
   {
+    "title": "HTB Previous has been pwned!",
+    "url": "/posts/Previous_pwned/",
+    "categories": "HackTheBox, Writeup, Medium",
+    "tags": "Writeup, HTB-Medium",
+    "date": "2025-08-24 18:00:00 +0200",
+    "content": "Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.129.168.20 previous.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/Previous] └─$ sudo nmap -sC -sV -oA previous 10.129..."
+  },
+  {
     "title": "HTB Era has been pwned!",
     "url": "/posts/Era_pwned/",
     "categories": "HackTheBox, Writeup, Medium",

@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-08-24T17:45:43+02:00</updated>
+  <updated>2025-08-25T01:40:21+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB Previous has been pwned!</title>
+    <link href="https://iven86.github.io/posts/Previous_pwned/" rel="alternate" type="text/html" title="HTB Previous has been pwned!" />
+    <published>2025-08-24T18:00:00+02:00</published>
+  
+    <updated>2025-08-24T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/Previous_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Previous_pwned/" />
+    <author>
+      <name>Iven</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.129.168.20 previous.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/Previous] └─$ sudo nmap -sC -sV -oA previous 10.129.168.20            Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-24 17:29 EDT Nmap scan report for previous.htb (10.129.168.20) Host is up (0.040s latency). Not shown: 998 closed tcp ports (reset...</summary>
+
+  </entry>
 
   
   <entry>
@@ -127,34 +155,6 @@
   
 
   <summary>BruteForceAI: The Future of Intelligent Penetration Testing is Here  Hey security folks! I just discovered something that completely blew my mind, and I had to share it with you immediately. We’ve all been doing brute force attacks the “traditional” way for years, manually crafting selectors, hoping our scripts work on different login forms, and dealing with the constant headache of form variat...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>PortTracker: A Game-Changer for Network Monitoring - No More Port Conflicts!</title>
-    <link href="https://iven86.github.io/posts/PortTracker-Network-Monitoring-Tool/" rel="alternate" type="text/html" title="PortTracker: A Game-Changer for Network Monitoring - No More Port Conflicts!" />
-    <published>2025-07-27T12:30:00+02:00</published>
-  
-    <updated>2025-08-24T17:41:51+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/PortTracker-Network-Monitoring-Tool/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/PortTracker-Network-Monitoring-Tool/" />
-    <author>
-      <name>Iven</name>
-    </author>
-
-  
-    
-    <category term="DevOps" />
-    
-    <category term="Tools" />
-    
-    <category term="Networking" />
-    
-  
-
-  <summary>PortTracker: Finally, a Simple Solution to Network Port Management  Hey everyone! I recently stumbled upon a tool that’s been a real lifesaver for my homelab setup, and I just had to share it with you all. If you’ve ever deployed a service only to find out port 8080 is already taken by something else, or if you’ve been managing your network services in a messy spreadsheet (we’ve all been there!...</summary>
 
   </entry>
 
