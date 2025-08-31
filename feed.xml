@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-08-26T19:29:57+02:00</updated>
+  <updated>2025-08-31T21:27:27+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>HTB CodeTwo has been pwned!</title>
+    <link href="https://iven86.github.io/posts/CodeTwo_pwned/" rel="alternate" type="text/html" title="HTB CodeTwo has been pwned!" />
+    <published>2025-08-27T18:00:00+02:00</published>
+  
+    <updated>2025-08-27T18:00:00+02:00</updated>
+  
+    <id>https://iven86.github.io/posts/CodeTwo_pwned/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/CodeTwo_pwned/" />
+    <author>
+      <name>Iven</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Easy" />
+    
+  
+
+  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
+
+  </entry>
 
   
   <entry>
@@ -127,34 +155,6 @@
   
 
   <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>BruteForceAI: When AI Meets Penetration Testing - A Game Changer</title>
-    <link href="https://iven86.github.io/posts/BruteForceAI-Revolutionary-Pentesting-Tool/" rel="alternate" type="text/html" title="BruteForceAI: When AI Meets Penetration Testing - A Game Changer" />
-    <published>2025-07-27T14:00:00+02:00</published>
-  
-    <updated>2025-08-24T17:41:51+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/BruteForceAI-Revolutionary-Pentesting-Tool/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/BruteForceAI-Revolutionary-Pentesting-Tool/" />
-    <author>
-      <name>Iven</name>
-    </author>
-
-  
-    
-    <category term="Security" />
-    
-    <category term="AI" />
-    
-    <category term="Penetration Testing" />
-    
-  
-
-  <summary>BruteForceAI: The Future of Intelligent Penetration Testing is Here  Hey security folks! I just discovered something that completely blew my mind, and I had to share it with you immediately. We’ve all been doing brute force attacks the “traditional” way for years, manually crafting selectors, hoping our scripts work on different login forms, and dealing with the constant headache of form variat...</summary>
 
   </entry>
 

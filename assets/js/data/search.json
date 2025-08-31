@@ -1,5 +1,13 @@
 [
   {
+    "title": "HTB CodeTwo has been pwned!",
+    "url": "/posts/CodeTwo_pwned/",
+    "categories": "HackTheBox, Writeup, Easy",
+    "tags": "Writeup, HTB-Easy",
+    "date": "2025-08-27 18:00:00 +0200",
+    "content": "This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi..."
+  },
+  {
     "title": "HTB Previous has been pwned!",
     "url": "/posts/Previous_pwned/",
     "categories": "HackTheBox, Writeup, Medium",
