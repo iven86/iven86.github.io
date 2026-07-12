@@ -4,7 +4,7 @@
   <id>https://iven86.github.io/</id>
   <title>Iven Blog</title>
   <subtitle>DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.</subtitle>
-  <updated>2025-09-03T14:36:02+02:00</updated>
+  <updated>2026-07-12T17:21:51+02:00</updated>
   <author>
     <name>Iven Blog</name>
     <uri>https://iven86.github.io/</uri>
@@ -13,7 +13,7 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="https://iven86.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2025 Iven Blog </rights>
+  <rights> © 2026 Iven Blog </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -48,14 +48,14 @@
 
   
   <entry>
-    <title>HTB CodeTwo has been pwned!</title>
-    <link href="https://iven86.github.io/posts/CodeTwo_pwned/" rel="alternate" type="text/html" title="HTB CodeTwo has been pwned!" />
+    <title>HTB CodeTwo Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/CodeTwo/" rel="alternate" type="text/html" title="HTB CodeTwo Writeup (Walkthrough)" />
     <published>2025-08-27T18:00:00+02:00</published>
   
-    <updated>2025-08-27T18:00:00+02:00</updated>
+    <updated>2026-07-12T17:20:53+02:00</updated>
   
-    <id>https://iven86.github.io/posts/CodeTwo_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/CodeTwo_pwned/" />
+    <id>https://iven86.github.io/posts/CodeTwo/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/CodeTwo/" />
     <author>
       <name>Iven</name>
     </author>
@@ -70,20 +70,20 @@
     
   
 
-  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
+  <summary>Introduction  This is a detailed walkthrough for the “CodeTwo” machine on Hack The Box. The target is a Linux system running a Python Code Editor web application vulnerable to database query exposure and privilege escalation via a misconfigured backup script.  Enumeration  Port Scanning nmap -sC -sV -oN codetwo/codetwo 10.10.11.82   ┌──(kali㉿kali)-[/mnt/hgfs/VMShare/CodeTwo] └─$ nmap -sC -sV -P...</summary>
 
   </entry>
 
   
   <entry>
-    <title>HTB Previous has been pwned!</title>
-    <link href="https://iven86.github.io/posts/Previous_pwned/" rel="alternate" type="text/html" title="HTB Previous has been pwned!" />
+    <title>HTB Previous Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Previous/" rel="alternate" type="text/html" title="HTB Previous Writeup (Walkthrough)" />
     <published>2025-08-24T18:00:00+02:00</published>
   
-    <updated>2025-08-24T18:00:00+02:00</updated>
+    <updated>2026-01-10T17:09:01+01:00</updated>
   
-    <id>https://iven86.github.io/posts/Previous_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Previous_pwned/" />
+    <id>https://iven86.github.io/posts/Previous/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Previous/" />
     <author>
       <name>Iven</name>
     </author>
@@ -98,7 +98,35 @@
     
   
 
-  <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.129.168.20 previous.htb   Port Scanning ┌──(kali㉿kali)-[~/Desktop/Previous] └─$ sudo nmap -sC -sV -oA previous 10.129.168.20            Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-24 17:29 EDT Nmap scan report for previous.htb (10.129.168.20) Host is up (0.040s latency). Not shown: 998 closed tcp ports (reset...</summary>
+  <summary>Reconnaissance  Let’s start our exploration of the Previous machine by setting up our environment and scanning for available services.  Host Enumeration First, I’ll add the target IP to my hosts file for easier navigation:  ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.129.168.20 previous.htb   Port Scanning Let me run a comprehensive Nmap scan to identify open ports and running services:  ┌──...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>HTB Era Writeup (Walkthrough)</title>
+    <link href="https://iven86.github.io/posts/Era/" rel="alternate" type="text/html" title="HTB Era Writeup (Walkthrough)" />
+    <published>2025-08-23T18:00:00+02:00</published>
+  
+    <updated>2025-12-06T17:09:04+01:00</updated>
+  
+    <id>https://iven86.github.io/posts/Era/</id>
+    <content type="text/html" src="https://iven86.github.io/posts/Era/" />
+    <author>
+      <name>Iven</name>
+    </author>
+
+  
+    
+    <category term="HackTheBox" />
+    
+    <category term="Writeup" />
+    
+    <category term="Medium" />
+    
+  
+
+  <summary>Reconnaissance Starting with an initial nmap scan to identify open ports and services:  ┌──(kali㉿kali)-[~] └─$ nmap -sC -sV -oA era 10.10.11.79  # Nmap 7.95 scan initiated Tue Aug 19 12:58:36 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA era 10.10.11.79 Nmap scan report for era.htb (10.10.11.79) Host is up (0.13s latency). Not shown: 998 closed tcp ports (reset) PORT   STATE SERVICE VERS...</summary>
 
   </entry>
 
@@ -127,34 +155,6 @@
   
 
   <summary>Reconnaissance  Host Enumeration ┌──(kali㉿kali)-[~] └─$ sudo nano /etc/hosts 10.10.11.79 era.htb file.era.htb   Port Scanning ┌──(kali㉿kali)-[~] └─$ nmap -sC -sV -oA era 10.10.11.79  # Nmap 7.95 scan initiated Tue Aug 19 12:58:36 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA era 10.10.11.79 Nmap scan report for era.htb (10.10.11.79) Host is up (0.13s latency). Not shown: 998 closed tcp p...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Editor has been Pwned!</title>
-    <link href="https://iven86.github.io/posts/Editor_pwned/" rel="alternate" type="text/html" title="HTB Editor has been Pwned!" />
-    <published>2025-08-04T18:00:00+02:00</published>
-  
-    <updated>2025-08-24T17:41:51+02:00</updated>
-  
-    <id>https://iven86.github.io/posts/Editor_pwned/</id>
-    <content type="text/html" src="https://iven86.github.io/posts/Editor_pwned/" />
-    <author>
-      <name>Iven</name>
-    </author>
-
-  
-    
-    <category term="HackTheBox" />
-    
-    <category term="Writeup" />
-    
-    <category term="Easy" />
-    
-  
-
-  <summary>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.  Done!     Hi there 👋 Support me!    Life is an echo—what you send out comes back.</summary>
 
   </entry>
 

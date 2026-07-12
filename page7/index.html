@@ -52,32 +52,26 @@
 
   
 
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
+  <!-- Begin Jekyll SEO tag v2.9.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="HTB CodeTwo has been pwned!" />
-<meta name="author" content="Iven" />
+<meta property="og:title" content="Iven Blog" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial." />
-<meta property="og:description" content="DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial." />
-<link rel="canonical" href="https://iven86.github.io/posts/CodeTwo_pwned/" />
-<meta property="og:url" content="https://iven86.github.io/posts/CodeTwo_pwned/" />
+<meta name="twitter:description" property="og:description" content="DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial." />
+<link rel="canonical" href="https://iven86.github.io/page7/" />
+<meta property="og:url" content="https://iven86.github.io/page7/" />
 <meta property="og:site_name" content="Iven Blog" />
-<meta property="og:image" content="https://iven86.github.io/../../assets/img/easy/CodeTwo.png" />
-<meta property="og:image:height" content="150" />
-<meta property="og:image:width" content="150" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-27T18:00:00+02:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://iven86.github.io/../../assets/img/easy/CodeTwo.png" />
-<meta property="twitter:title" content="HTB CodeTwo has been pwned!" />
+<meta property="og:type" content="website" />
+<link rel="prev" href="https://iven86.github.io/page6" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Iven Blog" />
 <meta name="twitter:site" content="@iven86" />
-<meta name="twitter:creator" content="@iven86" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Iven","url":"https://github.com/iven86"},"dateModified":"2025-08-27T18:00:00+02:00","datePublished":"2025-08-27T18:00:00+02:00","description":"DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.","headline":"HTB CodeTwo has been pwned!","image":{"width":150,"height":150,"url":"https://iven86.github.io/../../assets/img/easy/CodeTwo.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://iven86.github.io/posts/CodeTwo_pwned/"},"url":"https://iven86.github.io/posts/CodeTwo_pwned/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"DevOps - Penetration Tester - CTF Writeups - Notes - Troubleshooting - Security Tutorial.","headline":"Iven Blog","url":"https://iven86.github.io/page7/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>HTB CodeTwo has been pwned! | Iven Blog
+  <title>Iven Blog
   </title>
 
   <!--
@@ -123,16 +117,11 @@
   <!-- 3rd-party Dependencies -->
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.3/dist/tocbot.min.css">
-  
 
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
   
 
-  
-    <!-- Image Popup -->
-    <link rel="stylesheet" href="">
   
 
   <!-- Scripts -->
@@ -151,9 +140,6 @@
   
 
   
-    <!-- image lazy-loading & popup & clipboard -->
-    
-  
 
 
 
@@ -168,31 +154,6 @@
 
 
 
-
-  
-    
-
-    
-
-  
-
-  
-    
-
-    
-
-  
-
-  
-    <script defer src=""></script>
-  
-
-  
-    
-
-    
-
-  
 
   
     
@@ -229,9 +190,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/mermaid@10.6.0/dist/mermaid.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js"></script>
 
 
 
@@ -239,20 +207,11 @@
 
 
 
-<script defer src="/assets/js/dist/post.min.js"></script>
+<script defer src="/assets/js/dist/home.min.js"></script>
 
-
-  <!-- MathJax -->
-  <script async src="/assets/js/data/mathjax.js"></script>
-  <script async src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"></script>
 
 
 <!-- Pageviews -->
-
-  
-
-  
 
 
 
@@ -278,7 +237,7 @@
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a href="/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
@@ -512,23 +471,9 @@
       
 
       
-        
-          
-            <span>
-              <a href="/">Home</a>
-            </span>
+        <!-- index page -->
+        <span>Home</span>
 
-          
-        
-          
-        
-          
-            
-              <span>HTB CodeTwo has been pwned!</span>
-            
-
-          
-        
       
     </nav>
     <!-- endof #breadcrumb -->
@@ -538,7 +483,7 @@
     </button>
 
     <div id="topbar-title">
-      Post
+      Iven Blog
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -630,30 +575,6 @@
 
       
     
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
 
     <!-- take out classes -->
     
@@ -671,150 +592,12 @@
     
 
     
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
+      <!-- create the image wrapper -->
       
 
       
       
-      
 
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-
-        
-        
-      
-    
-
-    <!-- combine -->
-    
-  
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-    
-
-    
-
-    
-      
-    
-
-    <!-- lazy-load images -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- add class to exist <a> tag -->
-        
-        
-        
-
-      
     
 
     <!-- combine -->
@@ -867,17 +650,66 @@
 
 
 
+<!-- Get pinned posts on current page -->
 
-<article class="px-1" data-toc="false">
-  <header>
-    <h1 data-toc-skip>HTB CodeTwo has been pwned!</h1>
-    
 
-    <div class="post-meta text-muted">
-      <!-- published date -->
-      <span>
-        Posted
-        <!--
+
+
+
+
+<!-- Get normal posts on current page -->
+
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4238679248235087"
+     crossorigin="anonymous"></script>
+<!-- Iven's blog ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4238679248235087"
+     data-ad-slot="1267169343"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<div id="post-list" class="flex-grow-1 px-xl-1">
+  
+    <article class="card-wrapper card">
+      <a href="/posts/Cap/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/../../assets/img/easy/cap.png" alt="Preview Image"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">HTB Cap Writeup</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>INFO Machine IP = 10.10.10.245 OS       = Linux Level    = EASY Points   = 20  Write the IP of the machine to your /etc/hosts file echo &quot;10.10.10.245 cap.htb&quot; &amp;gt;&amp;gt; /etc/hosts   Scanning nmap -s...</p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
   Date format snippet
   See: ${JS_ROOT}/utils/locale-dateime.js
 -->
@@ -887,232 +719,193 @@
 
 <time
   
-  data-ts="1756310400"
+  data-ts="1583942400"
   data-df="ll"
   
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
 >
-  Aug 27, 2025
+  Mar 11, 2020
 </time>
 
-      </span>
 
-      <!-- lastmod date -->
-      
-
-      
-        
-        
-        
-
-        
-
-        <div class="mt-3 mb-3">
-          <a href="/../../assets/img/easy/CodeTwo.png" class="popup img-link preview-img shimmer"><img src="/../../assets/img/easy/CodeTwo.png"  alt="Preview Image" width="1200" height="630"  loading="lazy"></a></div>
-      
-
-      <div class="d-flex justify-content-between">
-        <!-- author(s) -->
-        <span>
-          
-
-          By
-
-          <em>
-            
-              
-                <a href="https://github.com/iven86">Iven</a>
+                <!-- categories -->
                 
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      HackTheBox,
+                      Writeup,
+                      Easy
+                  </span>
+                
+              </div>
+
               
-            
-          </em>
-        </span>
-
-        <div>
-          <!-- pageviews -->
-          
-
-          <!-- read time -->
-          <!-- Calculate the post's reading time, and display the word count in tooltip -->
-
-
-
-<!-- words per minute -->
-
-
-
-
-
-
-
-
-
-
-<!-- return element -->
-<span
-  class="readtime"
-  data-bs-toggle="tooltip"
-  data-bs-placement="bottom"
-  title="68 words"
->
-  <em>1 min</em> read</span>
-
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
         </div>
-      </div>
-    </div>
-  </header>
-
+      </a>
+    </article>
   
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4238679248235087"
-     crossorigin="anonymous"></script>
-<!-- Iven's blog ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4238679248235087"
-     data-ad-slot="1267169343"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  <div class="content">
-    <p><a href="/../../assets/img/easy/CodeTwo_pwned.png" class="popup img-link  shimmer"><img src="/../../assets/img/easy/CodeTwo_pwned.png" alt="CodeTwo" loading="lazy"></a></p>
-
-<p>This box is still active on HackTheBox. Once retired, this article will be published for public access as per <a href="https://help.hackthebox.com/en/articles/5188925-streaming-writeups-walkthrough-guidelines?ref=benheater.com">HackTheBox’s policy on publishing content from their platform</a>.</p>
-
-<p>For more hints and assistance, come chat with me. You can reach out to me through my other social links in the site footer or menu.</p>
-
-<p>Done!</p>
-
-<hr />
-<h1> Hi there 👋 Support me!</h1>
-<blockquote class="prompt-tip">
-  <p>Life is an echo—what you send out comes back.</p>
-</blockquote>
-<p><a href="https://www.paypal.com/donate?hosted_button_id=QX3V7C8BAJ84S" target="_blank"
-          class="img-link shimmer"
-        ><img src="/../../assets/img/DonateButtons/Paypal.png" alt="Donate" width="180" loading="lazy"></a></p>
-
-  </div>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4238679248235087"
-     crossorigin="anonymous"></script>
-<!-- Iven's blog ads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4238679248235087"
-     data-ad-slot="1267169343"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
-    
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        
-          <a href="/categories/hackthebox/">HackTheBox</a>,
-          <a href="/categories/writeup/">Writeup</a>,
-          <a href="/categories/easy/">Easy</a>
-      </div>
-    
-
-    <!-- tags -->
-    
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        
-          <a
-            href="/tags/writeup/"
-            class="post-tag no-text-decoration"
-          >Writeup</a>
-        
-          <a
-            href="/tags/htb-easy/"
-            class="post-tag no-text-decoration"
-          >HTB-Easy</a>
-        
-      </div>
-    
-
-    <div
-      class="
-        post-tail-bottom
-        d-flex justify-content-between align-items-center mt-5 pb-2
-      "
-    >
-      <div class="license-wrapper">
-        
-          
-
-          This post is licensed under 
-        <a href="https://creativecommons.org/licenses/by/4.0/">
-          CC BY 4.0
-        </a>
-         by the author.
-        
-      </div>
-
-      <!-- Post sharing snippet -->
-
-<div class="share-wrapper d-flex align-items-center">
-  <span class="share-label text-muted">Share</span>
-  <span class="share-icons">
-    
-    
-    
-
-    
-
-      
-
-      <a href="https://twitter.com/intent/tweet?text=HTB%20CodeTwo%20has%20been%20pwned!%20-%20Iven%20Blog&url=https%3A%2F%2Fiven86.github.io%2Fposts%2FCodeTwo_pwned%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
-        <i class="fa-fw fa-brands fa-square-x-twitter"></i>
-      </a>
-    
-
-      
-
-      <a href="https://www.facebook.com/sharer/sharer.php?title=HTB%20CodeTwo%20has%20been%20pwned!%20-%20Iven%20Blog&u=https%3A%2F%2Fiven86.github.io%2Fposts%2FCodeTwo_pwned%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
-        <i class="fa-fw fab fa-facebook-square"></i>
-      </a>
-    
-
-      
-
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fiven86.github.io%2Fposts%2FCodeTwo_pwned%2F&text=HTB%20CodeTwo%20has%20been%20pwned!%20-%20Iven%20Blog" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
-        <i class="fa-fw fab fa-telegram"></i>
-      </a>
-    
-
-      
-
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fiven86.github.io%2Fposts%2FCodeTwo_pwned%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
-        <i class="fa-fw fab fa-linkedin"></i>
-      </a>
-    
-
-    <button
-      id="copy-link"
-      aria-label="Copy link"
-      class="btn small"
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      title="Copy link"
-      data-title-succeed="Link copied successfully!"
-    >
-      <i class="fa-fw fas fa-link pe-none fs-6"></i>
-    </button>
-  </span>
 </div>
+<!-- #post-list -->
 
-    </div>
-    <!-- .post-tail-bottom -->
-  </div>
-  <!-- div.post-tail-wrapper -->
-</article>
+
+  <!-- The paginator for post list on HomgPage. -->
+
+<nav aria-label="Page Navigation">
+  <ul class="pagination align-items-center mt-4 mb-0">
+    <!-- left arrow -->
+    
+
+    <li class="page-item ">
+      <a class="page-link" href="/page6" aria-label="previous-page">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
+
+    <!-- page numbers -->
+    
+    
+
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/"
+          >1</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+          <li class="page-item disabled">
+            <span class="page-link">...</span>
+          </li>
+          
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- hide number -->
+        
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page5"
+          >5</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page6"
+          >6</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item  active">
+          <a
+            class="page-link"
+            href="/page7"
+          >7</a>
+        </li>
+      
+    
+
+    <!-- mobile pagination -->
+    <li class="page-index align-middle">
+      <span>7</span>
+      <span class="text-muted">/ 7</span>
+    </li>
+
+    <!-- right arrow -->
+    
+
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="next-page">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- .pagination -->
+
+
 
 
             
@@ -1144,35 +937,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Eureka/">HTB Eureka Machine Writeup (Walkthrough)</a>
+          <a href="/posts/CodeTwo/">HTB CodeTwo Writeup (Walkthrough)</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CodeTwo_pwned/">HTB CodeTwo has been pwned!</a>
+          <a href="/posts/Previous/">HTB Previous Writeup (Walkthrough)</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Previous_pwned/">HTB Previous has been pwned!</a>
+          <a href="/posts/Editor/">HTB Editor Writeup (Walkthrough)</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Dog/">HTB Dog Writeup</a>
+          <a href="/posts/Era/">HTB Era Writeup (Walkthrough)</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Cypher/">HTB Cypher Writeup (Walkthrough)</a>
+          <a href="/posts/Planning/">HTB planning Writeup (Walkthrough)</a>
         </li>
       
     </ul>
@@ -1612,8 +1405,6 @@
     
     
     
-    
-      
     
   
     
@@ -2210,724 +2001,12 @@
             </div>
 
             
-              
-              
-
-
-
-
-
-
-
-            
           </aside>
         </div>
 
         <div class="row">
           <!-- tail -->
           <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-md-4">
-            
-              
-              <!-- Recommend the other 3 posts according to the tags and categories of the current post. -->
-
-<!-- The total size of related posts -->
-
-
-<!-- An random integer that bigger than 0 -->
-
-
-<!-- Equals to TAG_SCORE / {max_categories_hierarchy} -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  <aside id="related-posts" aria-labelledby="related-label">
-    <h3 class="mb-4" id="related-label">Further Reading</h3>
-    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <article class="col">
-          <a href="/posts/Spectra/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1583942400"
-  data-df="ll"
-  
->
-  Mar 11, 2020
-</time>
-
-              <h4 class="pt-0 my-2">HTB Spectra Writeup</h4>
-              <div class="text-muted">
-                <p>INFO Machine IP = 10.10.10.229 OS       = Other Level    = EASY Points   = 20  Write the IP of the machine to your /etc/hosts file echo &quot;10.10.10.229 spectra.htb&quot; &amp;gt;&amp;gt; /etc/hosts   Scanning nma...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/Editor_pwned/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1754323200"
-  data-df="ll"
-  
->
-  Aug  4, 2025
-</time>
-
-              <h4 class="pt-0 my-2">HTB Editor has been Pwned!</h4>
-              <div class="text-muted">
-                <p>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/Planning_pwned/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1753718400"
-  data-df="ll"
-  
->
-  Jul 28, 2025
-</time>
-
-              <h4 class="pt-0 my-2">HTB planning has been pwned!</h4>
-              <div class="text-muted">
-                <p>This box is still active on HackTheBox. Once retired, this article will be published for public access as per HackTheBox’s policy on publishing content from their platform.  For more hints and assi...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-    </nav>
-  </aside>
-  <!-- #related-posts -->
-
-
-            
-              
-              <!-- Navigation buttons at the bottom of the post. -->
-
-<nav class="post-navigation d-flex justify-content-between" aria-label="Post Navigation">
-  
-  
-
-  
-    <a
-      href="/posts/Previous_pwned/"
-      class="btn btn-outline-primary"
-      aria-label="Older"
-    >
-      <p>HTB Previous has been pwned!</p>
-    </a>
-  
-
-  
-    <a
-      href="/posts/Eureka/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>HTB Eureka Machine Writeup (Walkthrough)</p>
-    </a>
-  
-</nav>
-
             
 
             <!-- The Footer -->
@@ -2940,7 +2019,7 @@
   "
 >
   <p>©
-    <time>2025</time>
+    <time>2026</time>
 
     
       <a href="https://twitter.com/iven86">Iven Blog</a>.
@@ -3406,8 +2485,6 @@
     
     
     
-    
-      
     
   
     
@@ -4046,11 +3123,6 @@
     
 
     <!-- Embedded scripts -->
-
-    
-      
-      <!-- The comments switcher -->
-
 
     
 
